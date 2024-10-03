@@ -1,5 +1,9 @@
 *** WBW Product Table ***
 
+2024-10-04 - version 2.0.8
+* Added license hook
+* Minor issues fix
+
 2024-09-20 - version 2.0.7
 * Fixed add to cart by quantity=0
 * Readme improvement
