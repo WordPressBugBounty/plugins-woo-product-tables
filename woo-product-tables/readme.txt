@@ -4,7 +4,7 @@ Tags: product table, WooCommerce product table, WooCommerce, bulk order form, qu
 Donate link: https://woobewoo.com/plugins/table-woocommerce-plugin/
 Requires at least: 3.3
 Tested up to: 6.6
-Stable tag: 2.0.8
+Stable tag: 2.0.9
 
 Show your products in the searchable and sortable product table. Product Table plugin will help your customers fine-tune their product search
 
@@ -186,8 +186,11 @@ Look at detailed instruction [Step by step: how to create add an order form](htt
 
 == Changelog ==
 
+= 2.0.9 =
+* Minor issues fix
+
 = 2.0.8 =
-* Added license hook
+* Added hook
 * Minor issues fix
 
 = 2.0.7 =

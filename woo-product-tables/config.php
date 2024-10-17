@@ -50,7 +50,7 @@ define('WTBP_CURRENT', 'current');
 define('WTBP_EOL', "\n");
 
 define('WTBP_PLUGIN_INSTALLED', true);
-define('WTBP_VERSION', '2.0.8');
+define('WTBP_VERSION', '2.0.9');
 define('WTBP_USER', 'user');
 
 define('WTBP_CLASS_PREFIX', 'wtbpc');

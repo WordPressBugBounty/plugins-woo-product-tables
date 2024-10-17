@@ -1,7 +1,10 @@
 *** WBW Product Table ***
 
+2024-10-17 - version 2.0.9
+* Minor issues fix
+
 2024-10-04 - version 2.0.8
-* Added license hook
+* Added hook
 * Minor issues fix
 
 2024-09-20 - version 2.0.7
