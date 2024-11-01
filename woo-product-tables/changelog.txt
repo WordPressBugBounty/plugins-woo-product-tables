@@ -1,5 +1,8 @@
 *** WBW Product Table ***
 
+2024-11-02 - version 2.1.0
+* Code improvement
+
 2024-10-17 - version 2.0.9
 * Minor issues fix
 
