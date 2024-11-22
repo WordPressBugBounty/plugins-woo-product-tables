@@ -1,5 +1,9 @@
 *** WBW Product Table ***
 
+2024-11-22 - version 2.1.1
+* Fixed compatibility with Floating WPF-filter
+* Added to main search filtration by acf-fields
+
 2024-11-02 - version 2.1.0
 * Code improvement
 
