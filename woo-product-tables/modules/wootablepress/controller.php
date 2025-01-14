@@ -145,19 +145,6 @@ class WootablepressControllerWtbp extends ControllerWtbp {
 		return $res->ajaxExec();
 	}
 
-	public function createTable() {
-		$res = new ResponseWtbp();
-		$id  = $this->getModel( 'wootablepress' )->save( ReqWtbp::get( 'post' ) );
-		if ( false != $id ) {
-			$res->addMessage( esc_html__( 'Done', 'woo-product-tables' ) );
-			$res->addData( 'edit_link', $this->getModule()->getEditLink( $id ) );
-		} else {
-			$res->pushError( $this->getModel( 'wootablepress' )->getErrors() );
-		}
-
-		return $res->ajaxExec();
-	}
-
 	public function multyProductAddToCart() {
 		$res              = new ResponseWtbp();
 		$params           = ReqWtbp::get( 'post' );

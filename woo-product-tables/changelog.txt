@@ -1,5 +1,8 @@
 *** WBW Product Table ***
 
+2025-01-14 - version 2.1.3
+* Security update
+
 2024-12-18 - version 2.1.2
 * Minor issues fix
 
