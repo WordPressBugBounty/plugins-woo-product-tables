@@ -191,6 +191,7 @@ abstract class ModelWtbp extends BaseObjectWtbp {
 	}
 	public function insert( $data ) {
 		$data = $this->_dataSave($data, false);
+		unset($data['additionalCondition']);
 		$id = FrameWtbp::_()->getTable( $this->_tbl)->insert( $data );
 		if ($id) {
 			return $id;
@@ -202,6 +203,7 @@ abstract class ModelWtbp extends BaseObjectWtbp {
 		if (!$id) {
 			$id = isset($data[ $this->_idField ]) ? (int) $data[ $this->_idField ] : 0;
 		}
+		unset($data['additionalCondition']);
 		if ($id) {
 			return $this->update($data, array($this->_idField => $id));
 		} else {

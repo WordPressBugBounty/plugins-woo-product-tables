@@ -4,23 +4,29 @@ Tags: product table, WooCommerce product table, WooCommerce, bulk order form, qu
 Donate link: https://woobewoo.com/plugins/table-woocommerce-plugin/
 Requires at least: 3.3
 Tested up to: 6.7
-Stable tag: 2.1.3
+Stable tag: 2.1.4
 
-Show your products in the searchable and sortable product table. Product Table plugin will help your customers fine-tune their product search
+Show your products in the searchable and sortable product table. WooCommerce product listings and flexible order forms with WBW Product Table
 
 == Description ==
 
-[Product Table WooCommerce plugin](https://woobewoo.com/plugins/table-woocommerce-plugin/?utm_source=wordpress&utm_medium=description&utm_campaign=wooproducttable "Product Table WooCommerce plugin") allows listing your WooCommerce products in a searchable table layout with filters. It's hugely popular for quick order forms, large product catalogs, restaurant order systems, wholesale layouts, price lists, and more.
+[Product Table plugin for WooCommerce](https://woobewoo.com/plugins/table-woocommerce-plugin/?utm_source=wordpress&utm_medium=description&utm_campaign=wooproducttable "Product Table plugin for WooCommerce") lets you display WooCommerce products in a searchable, filterable table. It's ideal for quick order forms, large product catalogs, restaurant ordering systems, wholesale displays, price lists, and more.
 
-Display items in a responsive table, generated automatically, with full control over what's displayed with no coding required. The WooCommerce product table allows you to add product tables anywhere on your site. To list products in a table, just add them to the table with the help of a sortable and searchable form, select the product properties you would like to display as columns, and add a table on any page via a shortcode.
+You can show products in a responsive, auto-generated table with full control over the displayed content—no coding needed. Simply choose the product properties to display as columns, then add the table to any page using a shortcode. It's easy to create sortable, searchable tables anywhere on your site.
+
+**[Features](https://woobewoo.com/product/table-woocommerce-plugin/ "Product Table Plugin Features")** | **[Documentation](https://woobewoo.com/docs/woocommerce-product-tables/ "Product Table Documentation")**
+
+
+Video tutorial on how to set up a WooCommerce Product Table by WBW
+[youtube https://youtu.be/bvFte7-_LkQ] 
 
 == Product Table Features ==
 
 * **[Any content support](https://woobewoo.com/feature/any-content-product-attributes-add-to-cart-button-media-and-much-more?utm_source=wordpress&utm_medium=tablecontent&utm_campaign=wooproducttable "Any content")**
-The plugin fully supports Name, Thumbnails, Categories, Tags, Featured, Sales, Price, Date, SKU, Rating, Stock status and Stock quantity, Attributes, Summary, Short description, Product link, Downloads, Buy button, Custom fields, and taxonomies
+The product table plugin fully supports Name, Thumbnails, Categories, Tags, Featured, Sales, Price, Date, SKU, Rating, Stock status and Stock quantity, Attributes, Summary, Short description, Product link, Downloads, Buy button, Custom fields, and taxonomies
 
 * **[Online Product Table Builder](https://woobewoo.com/plugins/table-woocommerce-plugin/?utm_source=wordpress&utm_medium=builder&utm_campaign=wooproducttable "Product Table Builder")**
-Customize each part of a table according to your needs and style.
+Customize each part of a product table according to your needs and style.
 
 * **[Instant Searching, Custom Sorting, Pagination](https://woobewoo.com/feature/searching-sorting-pagination?utm_source=wordpress&utm_medium=sortingsearching&utm_campaign=wooproducttable "Searching, Sorting, Pagination")**
 Improve user experience with fast Filtering, Searching & Sorting options find products faster and easier.
@@ -31,7 +37,7 @@ Improve user experience with fast Filtering, Searching & Sorting options find pr
 Customize each element in a product table: Caption, Header, Footer, Signature, Fixed Header, Description.
 
 * **[Product table with variations](https://woobewoo.com/example/product-table-variations/ "Product table with variations")**
-The plugin fully supports variable products. Choose whether to include variation dropdowns in the add to cart column or not; list each variation on its table row, or add a 'Read more' button linking to the single product page where customers can choose their variations.
+The product table plugin fully supports variable products. You can choose to include variation dropdowns in the "Add to Cart" column, list each variation in its own table row, or add a "Read More" button that links to the product page where customers can select their variations.
 
 * **[Multi-select add to cart](https://woobewoo.com/example/order-form?utm_source=wordpress&utm_medium=Multiselectcheckbox&utm_campaign=wooproducttable "Quantities and Multi-select checkbox")**
 Increase sales by allowing customers to add multiple products and variations to their cart directly from your product list page. Use the standard Add to Cart button, multi-select checkboxes, Add All to cart, or all features together. Show or hide the quantity picker so that customers can choose a quantity directly in the product table.
@@ -58,22 +64,31 @@ If you want to create a convenient, unique and stylish store, the goal of which 
 All the benefits of the PRO version can be explored here.
 It's perfect for product [Product catalogs](https://woobewoo.com/example/product-catalog?utm_source=wordpress&utm_medium=catalog&utm_campaign=wooproducttable "Product catalog"), [Price List](https://woobewoo.com/example/price-list?utm_source=wordpress&utm_medium=pricelist&utm_campaign=wooproducttable "Price list"), [Order forms](https://woobewoo.com/example/order-form?utm_source=wordpress&utm_medium=orderform&utm_campaign=wooproducttable "Order Form"), and more.
 
-== [Try DEMO](http://demo.woobewoo.com/ "Demo site") ==
-Create your table and try all features of [Product Table WooCommerce plugin](https://woobewoo.com/plugins/table-woocommerce-plugin/?utm_source=wordpress&utm_medium=description&utm_campaign=wooproducttable "Product Table WooCommerce plugin")
-
 == WooCommerce Product Table Plugin Support ==
 
 If you have any problems or suggestions for the WooCommerce Product Table plugin, please contact us via **[Contact Form](https://woobewoo.com/contact-us?utm_source=wordpress&utm_medium=contactus&utm_campaign=wooproducttable "Contact us")**
 
-Video tutorial on how to set up a WooCommerce Product Table by WBW
-[youtube https://youtu.be/bvFte7-_LkQ] 
+== Innovative Ways Our Users Using the Product Table ==
+
+1. **Personalized Gift Guide**  
+Transform the product table into a smart gift recommendation tool. Users can input details about their recipient—age, interests, budget—and receive tailored suggestions from your product catalog. A filtering system could highlight trending, discounted, or unique items. By integrating social sharing, users can ask friends for feedback, making the shopping experience interactive. This attracts gift shoppers who may not have considered your store before.  
+
+2. **Wishlist with Price Alerts**  
+Allow users to create and share wishlists directly from the product table, with an option to receive price drop alerts. Customers can track their favorite items and get notified when prices go down or when stock is low, creating urgency to buy. Adding a feature to compare similar products could enhance the decision-making process. A referral program that rewards users for sharing their wishlist with friends would further expand your audience. This would bring in new customers who appreciate discounts and personalized shopping experiences.  
+
+3. **Community Ratings & Reviews Integration**  
+Enhance your product table by allowing users to contribute ratings, reviews, and real-life usage tips. Displaying top-rated products, user photos, and trending picks builds trust among potential buyers. Encourage existing customers to leave reviews in exchange for discounts or loyalty points. Featuring “expert picks” or “staff favorites” adds an extra layer of credibility. This social-proof-driven approach attracts hesitant buyers and turns them into loyal customers.  
+
+4. **Augmented Reality (AR) Preview Feature**  
+Integrate an AR feature where users can visualize products in their space directly from the product table. For fashion items, they could see how clothes fit virtually; for home decor, they could preview how an item looks in their room. A quick QR code scan could transfer this experience to their mobile device for seamless exploration. Offering a “Try Before You Buy” option, where users can order sample versions of certain products, would further enhance engagement. This innovative shopping experience appeals to tech-savvy consumers and reduces hesitation in purchasing.  
+
 
 == Installation ==
 
 a) VIA FTP
-A download zip archive with plugin
+A download zip archive with Product Table plugin
 Extract files
-Copy the folder with the plugin
+Copy the folder with the Product Table plugin
 Open via ftp folder \wp-content\plugins\
 Paste plugin folder into here
 Go to admin panel => Plugins => press activate

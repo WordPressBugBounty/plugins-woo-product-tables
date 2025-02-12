@@ -135,8 +135,9 @@ class WootablepressControllerWtbp extends ControllerWtbp {
 			wp_die();
 		}
 		$res = new ResponseWtbp();
+		$params = ReqWtbp::get( 'post' );
 
-		if ( $this->getModel( 'wootablepress' )->delete( ReqWtbp::get( 'post' ) ) != false ) {
+		if ( $this->getModel( 'wootablepress' )->delete( array('id' => (int) ( empty($params['id']) ? 0 : $params['id'] )) ) != false ) {
 			$res->addMessage( esc_html__( 'Done', 'woo-product-tables' ) );
 		} else {
 			$res->pushError( $this->getModel( 'wootablepress' )->getErrors() );

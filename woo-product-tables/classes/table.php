@@ -287,7 +287,7 @@ abstract class TableWtbp {
 				$query = 'UPDATE ';
 				break;
 		}
-		
+		unset($data['additionalCondition']);
 		$fields = $this->_getQueryString($data, ',', true);
 		if (empty($fields)) {
 			$this->_addError(esc_html__('Nothing to update', 'woo-product-tables'));
