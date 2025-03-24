@@ -644,7 +644,7 @@ class WootablepressViewWtbp extends ViewWtbp {
 		$return['settings'] = $tableSettings;
 		$return['css']      = $preview ? $this->getCustomCss( $tableSettings, 'wtbpPreviewTable', false ) : '';
 		if ( $returnIds ) {
-			$return['ids'] = $idsExist;
+			$return['ids'] = UtilsWtbp::controlNumericValues($idsExist, 'id');
 		}
 		$return['total'] = $total;
 
@@ -733,7 +733,7 @@ class WootablepressViewWtbp extends ViewWtbp {
 
 		$result = array( 'html' => $html, 'total' => $params['total'], 'filtered' => $params['filtered'], 'jscript' => $jscript );
 		if ( isset( $params['idsExist'] ) ) {
-			$result['ids'] = $params['idsExist'];
+			$result['ids'] = UtilsWtbp::controlNumericValues($params['idsExist'], 'id');
 		}
 		
 		return $result;

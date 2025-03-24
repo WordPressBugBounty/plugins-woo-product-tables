@@ -708,4 +708,17 @@ class UtilsWtbp {
 		$rgbArr = self::hexToRgb($hex);
 		return 'rgba(' . implode(',', $rgbArr) . ',' . $alpha . ')';
 	}
+	public static function controlNumericValues( $values, $field ) {
+		$isArray = is_array($values);
+		if (!$isArray) {
+			$values = explode(',', $values);
+		}
+		foreach ($values as $k => $val) {
+			$values[$k] = ( 'dec' == $field ? (float) $val : (int) $val );
+		}
+		if (!$isArray) {
+			$values = implode(',', $values);
+		}
+		return $values;
+	}
 }
