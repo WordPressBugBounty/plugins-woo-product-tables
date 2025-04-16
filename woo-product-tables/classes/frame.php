@@ -113,7 +113,7 @@ class FrameWtbp {
 		ReqWtbp::init();
 		$this->_extractTables();
 		$this->_extractModules();
-		$this->connectLang();
+
 		$this->_initModules();
 
 		DispatcherWtbp::doAction('afterModulesInit');

@@ -1,5 +1,10 @@
 *** WBW Product Table ***
 
+2025-04-16 - version 2.1.6
+* Fixed link View details
+* Fixed pre-sorting by categories
+* Minor issues fix
+
 2025-03-24 - version 2.1.5
 * Added compatibility with defaults and preselects for WooFilter plugin
 * Security update

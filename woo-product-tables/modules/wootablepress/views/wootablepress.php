@@ -2639,7 +2639,7 @@ class WootablepressViewWtbp extends ViewWtbp {
 			" FROM {$wpdb->term_relationships} AS wtps_cat_tr" .
 			" INNER JOIN {$wpdb->terms} AS wtps_cat_te ON (wtps_cat_te.`term_id`=wtps_cat_tr.term_taxonomy_id)" .
 			" INNER JOIN {$wpdb->term_taxonomy} AS wtps_cat_tt ON (wtps_cat_tt.`taxonomy`='product_cat' AND wtps_cat_tt.term_taxonomy_id=wtps_cat_tr.term_taxonomy_id)" .
-			' WHERE wtps_cat_tr.`object_id`=wp_posts.ID) as wtps_cat_name';
+			" WHERE wtps_cat_tr.`object_id`={$wpdb->posts}.ID) as wtps_cat_name";
 		 $args['orderby'] = " wtps_cat_name, {$wpdb->posts}.post_title";
 
 		remove_filter( 'posts_clauses', array( $this, 'addOrderByCategories' ), 99999 );
