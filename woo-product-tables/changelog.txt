@@ -1,5 +1,9 @@
 *** WBW Product Table ***
 
+2025-05-28 - version 2.1.7
+* Fixed compatibility with B2B for WooCommerce
+* Minor issues fix
+
 2025-04-16 - version 2.1.6
 * Fixed link View details
 * Fixed pre-sorting by categories

@@ -8,6 +8,7 @@ __('Custom meta', 'woo-product-tables');
 __('Featured', 'woo-product-tables'); 
 __('SKU', 'woo-product-tables'); 
 __('Attributes', 'woo-product-tables'); 
+__('Color', 'woo-product-tables'); 
 __('Summary', 'woo-product-tables'); 
 __('Rating', 'woo-product-tables'); 
 __('Stock status', 'woo-product-tables'); 

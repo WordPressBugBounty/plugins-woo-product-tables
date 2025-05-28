@@ -1253,13 +1253,27 @@ class WootablepressViewWtbp extends ViewWtbp {
 					 *
 					 * @link https://woocommerce.com/products/b2b-for-woocommerce/
 					 */
-					if ( in_array( 'b2b/addify_b2b.php', get_option( 'active_plugins' ), true ) ) {
+					$activePlugins = get_option( 'active_plugins' );
+					foreach ($activePlugins as $plugin) {
+						if (strpos($plugin, '/addify_b2b.php') !== false) {
+							$path = explode('/', $plugin);
+							if (!empty($path[0])) {
+								include WP_PLUGIN_DIR . '/' . $path[0] . '/additional_classes/class_afb2b_role_based_pricing_front.php';
+								$b2bPrice = new Front_Class_Addify_Customer_And_Role_Pricing();
+								if ( method_exists( $b2bPrice, 'csp_load' ) ) {
+									$b2bPrice->csp_load();
+								}
+							}
+							break;
+						}
+					}
+					/*if ( in_array( 'b2b/addify_b2b.php', get_option( 'active_plugins' ), true ) ) {
 						include WP_PLUGIN_DIR . '/b2b/additional_classes/class_afb2b_role_based_pricing_front.php';
 						$b2bPrice = new Front_Class_Addify_Customer_And_Role_Pricing();
 						if ( method_exists( $b2bPrice, 'csp_load' ) ) {
 							$b2bPrice->csp_load();
 						}
-					}
+					}*/
 					// compatibility with plugin Germanized for WooCommerce
 					$isGzd = function_exists('wc_gzd_get_product');
 					// need global variable for product to ensure compatibility with the WooCommerce Currency Switcher by WBW

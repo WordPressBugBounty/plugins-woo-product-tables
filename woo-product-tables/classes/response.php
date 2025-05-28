@@ -1,4 +1,5 @@
 <?php
+#[\AllowDynamicProperties]
 class ResponseWtbp {
 	public $code = 0;
 	public $error = false;
