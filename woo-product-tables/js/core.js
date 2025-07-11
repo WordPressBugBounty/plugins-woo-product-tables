@@ -1,3 +1,9 @@
+/**
+ * Product Table by WBW - Core JS
+ *
+ * @version 2.1.8
+ */
+
 "use strict";
 if(typeof(WTBP_DATA) == 'undefined')
 	var WTBP_DATA = {};
@@ -72,8 +78,9 @@ jQuery.fn.sendFormWtbp = function(params) {
 		sentFromForm = true;
 	}
 	if(sentFromForm && form) {
-        jQuery(form).find('*').removeClass('wtbpInputError');
-    }
+		const $form = form instanceof jQuery ? form : jQuery(form);
+		$form.find('.wtbpInputError').removeClass('wtbpInputError');
+	}
 	if(msgEl && !params.btn) {
 		jQuery(msgEl)
 			.removeClass('wtbpSuccessMsg')

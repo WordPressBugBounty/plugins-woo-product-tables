@@ -1,5 +1,9 @@
 *** WBW Product Table ***
 
+2025-07-11 - version 2.1.8
+* Fix - Fixed error "Uncaught RangeError: Maximum call stack size exceeded" while saving tables.
+* WC tested up to: 9.9.
+
 2025-05-28 - version 2.1.7
 * Fixed compatibility with B2B for WooCommerce
 * Minor issues fix
@@ -71,7 +75,7 @@
 * Minor issues fix
 
 2024-04-12 - version 1.9.8
-* Added export to CSV 
+* Added export to CSV
 * Added pre-order by categories
 * Minor issues fix
 
@@ -229,13 +233,13 @@
 * Fixed quantity
 
 2022-03-11 - version 1.5.7
-* Fixed bugs showing WC sniffer 
+* Fixed bugs showing WC sniffer
 * Fixed output of attributes with value 0
-* Fixed category filter showing 
+* Fixed category filter showing
 * Fixed quantity
 
 2022-02-09 - version 1.5.6
-* Fixed cart update for ajax variable products 
+* Fixed cart update for ajax variable products
 * Styled import modal
 * Fixed 2 min quantity
 * Favorites icons changed and animation added
@@ -288,7 +292,7 @@
 * Fix double ajax query.
 * Fix notify for single product
 * Fixed header column width when changing body column width
-* Fix behavior for selector 
+* Fix behavior for selector
 * Fix wrong line order
 * Fixed filtering
 
@@ -473,7 +477,7 @@
  * Small fixes for admin icon style
  * Fixes for responsive mode
  * Fixes for search by tags
- * Added lazy load option 
+ * Added lazy load option
  * Fixes for column search
  * Add ACF plugin support display in table as admin view for logical fields
  * Add support to ACF relation group fields
@@ -487,7 +491,7 @@
 2020-05-20 - version 1.2.8
  * Add hide variations/attributes optional for a "Buy" column
  * Added Option Included children for category filter
- * Added max quantity stock control optionality 
+ * Added max quantity stock control optionality
  * Add Option Included children for SSP
  * Fix responsive issue with hidden page elements that have plugin tables
  * Add second thumbnail optionality
@@ -498,7 +502,7 @@
  * Added support Variable subscription product type
 
 2020-04-29 - version 1.2.7
- * Added Hide products before filtering 
+ * Added Hide products before filtering
  * Added button View cart for variable products
  * Add filter title option
  * Minor issues fix
@@ -553,7 +557,7 @@
  * Minor issues fix
 
 2020-01-15 - version 1.2.0
- * PRO: Added custom styles for Buy Button 
+ * PRO: Added custom styles for Buy Button
  * Added Tags Column and Multiple and search for filters
  * PRO: Added Price Filter
  * PRO: Added price filter for variable product
@@ -577,11 +581,11 @@
  * Minor issues fix
 
 2019-11-14 - version 1.1.7
- * Revision styles for variable products 
+ * Revision styles for variable products
  * Add fix for custom syles
  * Fix variable price for responsive mode
  * Add new table error fix for WordPress 5.3
- 
+
 2019-10-30 - version 1.1.6
  * Fix deprecated finction
  * Fixed expired license
@@ -597,7 +601,7 @@
  * Minor issues fix
 
 2019-09-25 - version 1.1.4
- * Add search by hidden attributes 
+ * Add search by hidden attributes
  * Fix some MPC bugs
  * Fix css for responsive mod
  * Fixed mobile variation option
@@ -609,7 +613,7 @@
  * Add CSS fix for quantity div, responsive mode
  * Fixed variation instock attributes
 
-2019-09-11 - version 1.1.3 
+2019-09-11 - version 1.1.3
  * Added custom styles to print
  * Added ACF-field true/false
  * Fixed elementor conflict
@@ -627,7 +631,7 @@
  * Fixed responsive modes
  * Minor issues fix
 
-2019-08-11 - version 1.1.2 
+2019-08-11 - version 1.1.2
  * Fixes for new wp translations
  * Add option Show quantity items in stock issue
  * Add option Stock quantity items text issue
@@ -635,14 +639,14 @@
  * Add attribute feature for already created table and add product attributes
  * Add caption, description and signature to print issue
  * Fix products counter
- * Replace wp_query to wpdb issue 
+ * Replace wp_query to wpdb issue
  * Add title, description, siganture to print page issue
- * Add option Open product link on a new window issue 
+ * Add option Open product link on a new window issue
  * Add responsive dependence from option Mobile screen width issue
  * Added image/icon for Featured column
  * Add Instock quantity checker for variants issue
  * Added author and tag filters
- * Small code fixes to support php 7.3 
+ * Small code fixes to support php 7.3
  * Small code fixes (change time limit)
  * Minor issues fix
 
@@ -694,10 +698,10 @@
  * Preview fix
  * Save button fix
  * Minor issues fix
- 
+
 2019-03-20 - version 1.0.7
  * Add select for quantity product on admin page
- * Added sorting numerically for Price Column 
+ * Added sorting numerically for Price Column
  * Added feature Attributes filter position select
  * Add fix for translate languages and Netherland
  * Fix the focus loss for quantity inputs
@@ -733,7 +737,7 @@
  * Minor issues fix
  * Added One-Attribute Columns
  * Added attribute selection for variable products
- * Move Manage Table Content in popup and add button Select all 
+ * Move Manage Table Content in popup and add button Select all
  * Update wootablepressEditAdmin.php
 
 2018-07-26 - version 1.0.2
