@@ -1,0 +1,2412 @@
+# Copyright (C) 2025 woobewoo
+# This file is distributed under the same license as the Product Table by WBW plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Table by WBW 2.1.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/product-table\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-07-21T10:50:51+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: woo-product-tables\n"
+
+#. Plugin Name of the plugin
+#: woo-producttables.php
+msgid "Product Table by WBW"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: woo-producttables.php
+msgid "https://woobewoo.com/plugins/table-woocommerce-plugin/"
+msgstr ""
+
+#. Description of the plugin
+#: woo-producttables.php
+msgid "Post your product easy in tables"
+msgstr ""
+
+#. Author of the plugin
+#: woo-producttables.php
+msgid "woobewoo"
+msgstr ""
+
+#. Author URI of the plugin
+#: woo-producttables.php
+msgid "https://woobewoo.com"
+msgstr ""
+
+#: classes/controller.php:232
+#: classes/controller.php:241
+#: modules/mail/controller.php:24
+#: modules/options/controller.php:11
+#: modules/pages/views/tpl/deactivatePage.php:49
+#: modules/wootablepress/controller.php:50
+#: modules/wootablepress/controller.php:75
+#: modules/wootablepress/controller.php:106
+#: modules/wootablepress/controller.php:123
+#: modules/wootablepress/controller.php:141
+msgid "Done"
+msgstr ""
+
+#: classes/field.php:138
+#: classes/field.php:149
+#: classes/field.php:154
+msgid "N/A"
+msgstr ""
+
+#: classes/fieldAdapter.php:99
+msgid "Apply To"
+msgstr ""
+
+#: classes/fieldAdapter.php:101
+msgid "Address"
+msgstr ""
+
+#: classes/fieldAdapter.php:102
+msgid "Destination"
+msgstr ""
+
+#: classes/fieldAdapter.php:103
+msgid "Country"
+msgstr ""
+
+#: classes/fieldAdapter.php:106
+#: languages/customTitle.php:4
+#: modules/wootablepress/views/wootablepress.php:2542
+msgid "Categories"
+msgstr ""
+
+#: classes/fieldAdapter.php:107
+msgid "You have no categories"
+msgstr ""
+
+#: classes/fieldAdapter.php:108
+#: languages/customTitle.php:24
+msgid "Brands"
+msgstr ""
+
+#: classes/fieldAdapter.php:109
+msgid "You have no brands"
+msgstr ""
+
+#: classes/fieldAdapter.php:111
+msgid "Tax Rate"
+msgstr ""
+
+#: classes/fieldAdapter.php:112
+msgid "Absolute"
+msgstr ""
+
+#: classes/fieldAdapter.php:143
+#: classes/fieldAdapter.php:159
+msgid "Not selected"
+msgstr ""
+
+#: classes/fieldAdapter.php:200
+msgid "class"
+msgstr ""
+
+#: classes/fieldAdapter.php:202
+msgid "id"
+msgstr ""
+
+#: classes/frame.php:151
+msgid "You have no permissions to view this page"
+msgstr ""
+
+#: classes/html.php:396
+msgid "Select"
+msgstr ""
+
+#: classes/model.php:170
+#: classes/model.php:184
+msgid "Database error detected"
+msgstr ""
+
+#: classes/model.php:173
+msgid "Invalid ID"
+msgstr ""
+
+#: classes/model.php:210
+msgid "Empty or invalid ID"
+msgstr ""
+
+#: classes/modInstaller.php:85
+msgid "Cannot create module directory. Try to set permission to "
+msgstr ""
+
+#: classes/modInstaller.php:115
+msgid "No modules were found in XML file"
+msgstr ""
+
+#: classes/modInstaller.php:120
+msgid "Invalid XML file"
+msgstr ""
+
+#: classes/modInstaller.php:123
+msgid "No XML file were found"
+msgstr ""
+
+#: classes/modInstaller.php:158
+msgid "Error Activate module"
+msgstr ""
+
+#: classes/modInstaller.php:190
+msgid "Error Deactivation module"
+msgstr ""
+
+#: classes/modInstaller.php:212
+msgid "Error Activating module"
+msgstr ""
+
+#: classes/req.php:28
+#: classes/req.php:128
+#: classes/req.php:159
+msgid "Security check"
+msgstr ""
+
+#: classes/table.php:293
+msgid "Nothing to update"
+msgstr ""
+
+#: classes/table.php:312
+msgid "Database error. Please contact your developer."
+msgstr ""
+
+#: languages/customTitle.php:2
+#: modules/wootablepress/views/wootablepress.php:2539
+msgid "Thumbnail"
+msgstr ""
+
+#: languages/customTitle.php:3
+#: modules/promo/mod.php:209
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1210
+#: modules/wootablepress/views/wootablepress.php:2540
+msgid "Name"
+msgstr ""
+
+#: languages/customTitle.php:5
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1122
+#: modules/wootablepress/views/wootablepress.php:2546
+msgid "Date"
+msgstr ""
+
+#: languages/customTitle.php:6
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1208
+#: modules/wootablepress/views/wootablepress.php:2545
+msgid "Price"
+msgstr ""
+
+#: languages/customTitle.php:7
+msgid "Custom meta"
+msgstr ""
+
+#: languages/customTitle.php:8
+msgid "Featured"
+msgstr ""
+
+#: languages/customTitle.php:9
+#: modules/wootablepress/views/wootablepress.php:2543
+msgid "SKU"
+msgstr ""
+
+#: languages/customTitle.php:10
+#: modules/wootablepress/views/wootablepress.php:2547
+msgid "Attributes"
+msgstr ""
+
+#: languages/customTitle.php:11
+msgid "Color"
+msgstr ""
+
+#: languages/customTitle.php:12
+msgid "Summary"
+msgstr ""
+
+#: languages/customTitle.php:13
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1206
+msgid "Rating"
+msgstr ""
+
+#: languages/customTitle.php:14
+#: modules/wootablepress/views/wootablepress.php:2544
+msgid "Stock status"
+msgstr ""
+
+#: languages/customTitle.php:15
+msgid "Buy"
+msgstr ""
+
+#: languages/customTitle.php:16
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:617
+msgid "Short description"
+msgstr ""
+
+#: languages/customTitle.php:17
+msgid "Sales"
+msgstr ""
+
+#: languages/customTitle.php:18
+msgid "Downloads"
+msgstr ""
+
+#: languages/customTitle.php:19
+msgid "Sale price dates"
+msgstr ""
+
+#: languages/customTitle.php:20
+msgid "Product link"
+msgstr ""
+
+#: languages/customTitle.php:21
+msgid "Tags"
+msgstr ""
+
+#: languages/customTitle.php:22
+msgid "Weight"
+msgstr ""
+
+#: languages/customTitle.php:23
+msgid "Dimensions"
+msgstr ""
+
+#: languages/customTitle.php:25
+msgid "Legierung"
+msgstr ""
+
+#: languages/customTitle.php:26
+msgid "Feingehalt"
+msgstr ""
+
+#: languages/customTitle.php:27
+msgid "Lieferzeit"
+msgstr ""
+
+#: languages/customTitle.php:28
+msgid "Lieferung Ab"
+msgstr ""
+
+#: languages/customTitle.php:29
+msgid "StoneSize"
+msgstr ""
+
+#: languages/customTitle.php:30
+msgid "Gesamtkarat"
+msgstr ""
+
+#: languages/customTitle.php:31
+msgid "Steingröße"
+msgstr ""
+
+#: languages/customTitle.php:32
+msgid "Steinqualität"
+msgstr ""
+
+#: languages/customTitle.php:33
+msgid "Besatz"
+msgstr ""
+
+#: languages/customTitle.php:34
+msgid "Foto"
+msgstr ""
+
+#: languages/customTitle.php:35
+msgid "Brillantqualität"
+msgstr ""
+
+#: languages/customTitle.php:36
+msgid "Bild"
+msgstr ""
+
+#. translators: %s: plugin name
+#: modules/adminmenu/mod.php:14
+msgid "Cool WordPress plugins from woobewoo.com developers. I tried %s - and this was what I need! #woobewoo.com"
+msgstr ""
+
+#: modules/adminmenu/mod.php:15
+#: modules/options/mod.php:49
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:100
+msgid "Settings"
+msgstr ""
+
+#: modules/adminmenu/mod.php:16
+msgid "More plugins for your WordPress site here!"
+msgstr ""
+
+#: modules/adminmenu/mod.php:17
+#: modules/adminmenu/mod.php:18
+#: modules/adminmenu/mod.php:19
+msgid "Spread the word!"
+msgstr ""
+
+#: modules/adminmenu/mod.php:27
+msgid "Product Tables"
+msgstr ""
+
+#: modules/mail/mod.php:75
+msgid "Cannot send email - problem with send server"
+msgstr ""
+
+#: modules/mail/mod.php:90
+msgid "Mail"
+msgstr ""
+
+#: modules/mail/mod.php:92
+msgid "Mail function tested and work"
+msgstr ""
+
+#: modules/mail/mod.php:93
+msgid "Notify Email"
+msgstr ""
+
+#: modules/mail/mod.php:93
+msgid "Email address used for all email notifications from plugin"
+msgstr ""
+
+#. translators: %s: url
+#: modules/mail/models/mail.php:7
+msgid "Test email functionality"
+msgstr ""
+
+#. translators: %s: url
+#: modules/mail/models/mail.php:7
+msgid "This is a test email for testing email functionality on your site, %s."
+msgstr ""
+
+#: modules/mail/models/mail.php:13
+msgid "Empty email address"
+msgstr ""
+
+#: modules/mail/views/tpl/mailAdmin.php:10
+msgid "Send test"
+msgstr ""
+
+#: modules/mail/views/tpl/mailAdmin.php:12
+msgid "This option allows you to check your server mail functionality"
+msgstr ""
+
+#: modules/mail/views/tpl/mailAdmin.php:15
+msgid "Did you receive test email?"
+msgstr ""
+
+#: modules/mail/views/tpl/mailAdmin.php:18
+msgid "Yes! It works!"
+msgstr ""
+
+#: modules/mail/views/tpl/mailAdmin.php:22
+msgid "No, I need to contact my hosting provider with mail function issue."
+msgstr ""
+
+#: modules/mail/views/tpl/mailAdmin.php:26
+msgid "Great! Mail function was tested and is working fine."
+msgstr ""
+
+#: modules/mail/views/tpl/mailAdmin.php:29
+msgid "Bad, please contact your hosting provider and ask them to setup mail functionality on your server."
+msgstr ""
+
+#. translators: %s: label
+#: modules/mail/views/tpl/mailAdmin.php:50
+#: modules/options/views/tpl/optionsSettingsTabContent.php:51
+msgid "Turned On %s"
+msgstr ""
+
+#. translators: %s: label
+#: modules/mail/views/tpl/mailAdmin.php:53
+#: modules/options/views/tpl/optionsSettingsTabContent.php:54
+msgid "Turned Off %s"
+msgstr ""
+
+#: modules/mail/views/tpl/mailAdmin.php:75
+#: modules/options/views/tpl/optionsSettingsTabContent.php:6
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:76
+msgid "Save"
+msgstr ""
+
+#: modules/options/mod.php:119
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1159
+msgid "General"
+msgstr ""
+
+#: modules/options/mod.php:122
+msgid "Send usage statistic"
+msgstr ""
+
+#: modules/options/mod.php:123
+msgid "Send information about what plugin options you prefer to use, this will help us make our solution better for You."
+msgstr ""
+
+#: modules/options/mod.php:128
+msgid "Accent neutralise for searching"
+msgstr ""
+
+#: modules/options/mod.php:129
+msgid "When searching a table with accented characters, it can be frustrating to have an input such as `Zurich` not match `Zürich` or `étoile` not match `etoile` in the table. Turn on if you want when searching replace accented characters with unaccented counterparts."
+msgstr ""
+
+#: modules/options/mod.php:134
+msgid "Locale based sorting"
+msgstr ""
+
+#: modules/options/mod.php:135
+msgid "If your locale contains accented characters, the table sorting may not work correctly. In this case, enable this option."
+msgstr ""
+
+#: modules/options/models/modules.php:34
+msgid "Module Updated"
+msgstr ""
+
+#: modules/options/models/modules.php:50
+msgid "Module Update Failed"
+msgstr ""
+
+#: modules/options/models/modules.php:54
+msgid "Error module ID"
+msgstr ""
+
+#: modules/options/models/options.php:64
+msgid "Empty data to save option"
+msgstr ""
+
+#: modules/options/views/tpl/optionsAdminMain.php:18
+msgid "Main page Go here!!!!"
+msgstr ""
+
+#: modules/options/views/tpl/optionsAdminPage.php:48
+msgid "Create new table"
+msgstr ""
+
+#: modules/options/views/tpl/optionsAdminPage.php:50
+msgid "Enter Table Name"
+msgstr ""
+
+#: modules/options/views/tpl/optionsAdminPage.php:52
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:306
+msgid "Select Products to add:"
+msgstr ""
+
+#: modules/options/views/tpl/optionsAdminPage.php:54
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:313
+msgid "Select author"
+msgstr ""
+
+#: modules/options/views/tpl/optionsAdminPage.php:58
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:317
+msgid "Select category"
+msgstr ""
+
+#: modules/options/views/tpl/optionsAdminPage.php:62
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:321
+msgid "Select tag"
+msgstr ""
+
+#: modules/options/views/tpl/optionsAdminPage.php:66
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:325
+msgid "Select attribute"
+msgstr ""
+
+#: modules/options/views/tpl/optionsAdminPage.php:70
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:329
+msgid "only current attribute"
+msgstr ""
+
+#: modules/options/views/tpl/optionsAdminPage.php:73
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:332
+msgid "show variations"
+msgstr ""
+
+#: modules/options/views/tpl/optionsAdminPage.php:76
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:335
+msgid "show private"
+msgstr ""
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:3
+msgid "Save all options"
+msgstr ""
+
+#: modules/options/views/tpl/optionsSettingsTabContent.php:62
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:218
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:223
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:228
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:233
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:238
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:293
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:301
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:904
+msgid "PRO option"
+msgstr ""
+
+#: modules/pages/views/tpl/deactivatePage.php:45
+msgid "Delete Plugin Data (options, setup data, database tables, etc.)"
+msgstr ""
+
+#: modules/promo/controller.php:7
+#: modules/promo/controller.php:106
+#: modules/promo/controller.php:115
+#: modules/promo/controller.php:124
+msgid "Information was saved. Thank you!"
+msgstr ""
+
+#. translators: %s: label
+#: modules/promo/controller.php:41
+msgid "Please select %s"
+msgstr ""
+
+#. translators: %s: label
+#: modules/promo/controller.php:41
+msgid "Please enter %s"
+msgstr ""
+
+#: modules/promo/controller.php:47
+msgid "Please enter valid email address"
+msgstr ""
+
+#: modules/promo/controller.php:133
+msgid "Thank you for Feedback!"
+msgstr ""
+
+#. translators: %s: plugin name
+#: modules/promo/mod.php:42
+msgid "Hey, I noticed you just use %s over a week – that’s awesome!"
+msgstr ""
+
+#. translators: %s: plugin name
+#: modules/promo/mod.php:42
+msgid "Could you please do me a BIG favor and give it a 5-star rating on WordPress? Just to help us spread the word and boost our motivation."
+msgstr ""
+
+#: modules/promo/mod.php:43
+#: modules/promo/mod.php:51
+msgid "Ok, you deserve it"
+msgstr ""
+
+#: modules/promo/mod.php:44
+#: modules/promo/mod.php:52
+msgid "Nope, maybe later"
+msgstr ""
+
+#: modules/promo/mod.php:45
+msgid "I already did"
+msgstr ""
+
+#. translators: %s: plugin name
+#: modules/promo/mod.php:47
+msgid "More then eleven days with our %s plugin - Congratulations!"
+msgstr ""
+
+#. translators: %s: plugin url
+#: modules/promo/mod.php:49
+msgid "On behalf of the entire %s company I would like to thank you for been with us, and I really hope that our software helped you."
+msgstr ""
+
+#: modules/promo/mod.php:50
+msgid "And today, if you want, - you can help us. This is really simple - you can just add small promo link to our site under your PopUps. This is small step for you, but a big help for us! Sure, if you don't want - just skip this and continue enjoy our software!"
+msgstr ""
+
+#: modules/promo/mod.php:53
+msgid "Skip"
+msgstr ""
+
+#. translators: 1: url, 2: end url
+#: modules/promo/mod.php:55
+msgid "You can help us improve our plugin - by %1$s enabling Usage Statistics %2$s. We will collect only our plugin usage statistic data - to understand Your needs and make our solution better for You."
+msgstr ""
+
+#. translators: 1: url, 2: end url
+#: modules/promo/mod.php:57
+msgid "Check out %1$s our other Plugins%2$s! Years of experience in WordPress plugins developers made those list unbreakable!"
+msgstr ""
+
+#: modules/promo/mod.php:109
+msgid "Constant Contact - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:110
+msgid "Campaign Monitor - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:111
+msgid "Vertical Response - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:112
+msgid "SendGrid - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:113
+msgid "GetResponse - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:114
+msgid "iContact - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:115
+msgid "Active Campaign - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:116
+msgid "Mailrelay - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:117
+msgid "arpReach - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:118
+msgid "SG Autorepondeur - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:119
+msgid "Benchmark - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:120
+msgid "InfusionSoft - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:121
+msgid "SalesForce - Web-to-Lead - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:122
+msgid "ConvertKit - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:123
+msgid "Emma - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:124
+msgid "SendinBlue - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:125
+msgid "Vision6 - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:126
+msgid "Vtiger - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:127
+msgid "Your Mailing List Provider (Ymlp) - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:128
+msgid "4Dem.it - PRO"
+msgstr ""
+
+#: modules/promo/mod.php:174
+msgid "Popup Location"
+msgstr ""
+
+#: modules/promo/mod.php:210
+msgid "Email"
+msgstr ""
+
+#: modules/promo/mod.php:211
+msgid "Website"
+msgstr ""
+
+#: modules/promo/mod.php:212
+msgid "Subject"
+msgstr ""
+
+#: modules/promo/mod.php:213
+msgid "Topic"
+msgstr ""
+
+#: modules/promo/mod.php:214
+msgid "Plugin options"
+msgstr ""
+
+#: modules/promo/mod.php:215
+msgid "Report a bug"
+msgstr ""
+
+#: modules/promo/mod.php:216
+msgid "Require a new functionality"
+msgstr ""
+
+#: modules/promo/mod.php:217
+#: modules/promo/views/tpl/pluginDeactivation.php:91
+msgid "Other"
+msgstr ""
+
+#: modules/promo/mod.php:219
+msgid "Message"
+msgstr ""
+
+#: modules/promo/mod.php:219
+msgid "Hello WBW Team!"
+msgstr ""
+
+#. translators: 1: url 2: url
+#: modules/promo/views/promo.php:28
+msgid ""
+"By default all subscribers add to the WordPress. \r\n"
+"\t\t\t\t\tTo find your subscribers go to Users tab on the left navigation menu of WordPress admin area. \r\n"
+"\t\t\t\t\tAlso available subscription to the Aweber, MailChimp, MailPoet %1$s. \r\n"
+"\t\t\t\t\tIf you want to add another subscription service - just %2$s and provide URL of the subscription service."
+msgstr ""
+
+#: modules/promo/views/promo.php:32
+msgid "and other"
+msgstr ""
+
+#. translators: %s: url
+#: modules/promo/views/promo.php:33
+#: modules/promo/views/tpl/pluginDeactivation.php:50
+msgid "contact us"
+msgstr ""
+
+#. translators: %s: url
+#: modules/promo/views/promo.php:35
+msgid "If you setup you're PopUp properly, and it still doesn't show on the page - there are can be conflict with your WordPress theme or other plugins. %s with the URL of the webpage you add popup and screenshots / text of the error messages, if you have one - and we will help you resolve your issue."
+msgstr ""
+
+#: modules/promo/views/promo.php:36
+msgid "Contact us"
+msgstr ""
+
+#: modules/promo/views/promo.php:38
+msgid "Where's my subscribers?"
+msgstr ""
+
+#: modules/promo/views/promo.php:40
+msgid "PopUp doesn't appear on the website"
+msgstr ""
+
+#. translators: %s: url
+#: modules/promo/views/promo.php:58
+msgid "There were some problems while trying to retrieve our news, but you can always check all list %s."
+msgstr ""
+
+#. translators: %s: url
+#: modules/promo/views/promo.php:58
+msgid "here"
+msgstr ""
+
+#: modules/promo/views/promo.php:69
+#: modules/promo/views/promo.php:74
+#: modules/promo/views/promo.php:76
+#: modules/promo/views/promo.php:77
+msgid "Yes"
+msgstr ""
+
+#: modules/promo/views/promo.php:69
+#: modules/promo/views/promo.php:74
+#: modules/promo/views/promo.php:76
+#: modules/promo/views/promo.php:77
+msgid "No"
+msgstr ""
+
+#: modules/promo/views/tpl/additionalmainAdminShowOnOptions.php:2
+msgid "Show when user tries to exit from your site."
+msgstr ""
+
+#: modules/promo/views/tpl/additionalmainAdminShowOnOptions.php:2
+msgid "Check example"
+msgstr ""
+
+#: modules/promo/views/tpl/additionalmainAdminShowOnOptions.php:13
+msgid "On Exit from Site"
+msgstr ""
+
+#: modules/promo/views/tpl/adminFooter.php:4
+msgid "Version"
+msgstr ""
+
+#: modules/promo/views/tpl/adminFooter.php:10
+msgid "Go"
+msgstr ""
+
+#: modules/promo/views/tpl/adminFooter.php:10
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1338
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1394
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1465
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1477
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1646
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1667
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1682
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1697
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1712
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1727
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1742
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1757
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1772
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1811
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1826
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1841
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1860
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1875
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1893
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1908
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2172
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2188
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2213
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2231
+msgid "PRO"
+msgstr ""
+
+#: modules/promo/views/tpl/adminFooter.php:15
+msgid "Support"
+msgstr ""
+
+#: modules/promo/views/tpl/featuredPlugins.php:3
+msgid "Get plugins bundle today and save over 80%"
+msgstr ""
+
+#: modules/promo/views/tpl/featuredPlugins.php:6
+msgid "Check It out"
+msgstr ""
+
+#: modules/promo/views/tpl/featuredPlugins.php:31
+msgid "More info"
+msgstr ""
+
+#: modules/promo/views/tpl/featuredPlugins.php:34
+msgid "Download"
+msgstr ""
+
+#: modules/promo/views/tpl/pluginDeactivation.php:32
+msgid "Your Feedback"
+msgstr ""
+
+#. translators: %s: plugin_name
+#: modules/promo/views/tpl/pluginDeactivation.php:36
+msgid "If you have a moment, please share why you are deactivating %s"
+msgstr ""
+
+#: modules/promo/views/tpl/pluginDeactivation.php:46
+msgid "Couldn't get the plugin to work"
+msgstr ""
+
+#. translators: %s: url
+#: modules/promo/views/tpl/pluginDeactivation.php:50
+msgid "If you have a question, %s and will do our best to help you"
+msgstr ""
+
+#: modules/promo/views/tpl/pluginDeactivation.php:60
+msgid "I found a better plugin"
+msgstr ""
+
+#: modules/promo/views/tpl/pluginDeactivation.php:64
+msgid "If it's possible, specify plugin name"
+msgstr ""
+
+#: modules/promo/views/tpl/pluginDeactivation.php:75
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: modules/promo/views/tpl/pluginDeactivation.php:83
+msgid "It's a temporary deactivation"
+msgstr ""
+
+#: modules/promo/views/tpl/pluginDeactivation.php:95
+msgid "What is the reason?"
+msgstr ""
+
+#: modules/promo/views/tpl/pluginDeactivation.php:103
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: modules/wootablepress/controller.php:62
+msgid "Post not exist!"
+msgstr ""
+
+#: modules/wootablepress/controller.php:84
+msgid "Products not exist!"
+msgstr ""
+
+#: modules/wootablepress/controller.php:170
+msgid "Please select at least one product from table"
+msgstr ""
+
+#: modules/wootablepress/controller.php:178
+msgid "Product(s) added to the cart"
+msgstr ""
+
+#: modules/wootablepress/mod.php:12
+msgid "Add New Table"
+msgstr ""
+
+#: modules/wootablepress/mod.php:15
+msgid "Edit"
+msgstr ""
+
+#: modules/wootablepress/mod.php:18
+msgid "Show All Tables"
+msgstr ""
+
+#. translators: %s: module name
+#: modules/wootablepress/mod.php:54
+msgid "For work with \"%s\" plugin, You need to install and activate"
+msgstr ""
+
+#: modules/wootablepress/mod.php:55
+msgid "plugin"
+msgstr ""
+
+#: modules/wootablepress/models/wootablepress.php:100
+#: modules/wootablepress/models/wootablepress.php:109
+msgid "Title can't be empty or more than 255 characters"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressAdmin.php:5
+#: modules/wootablepress/views/tpl/wootablepressAdmin.php:8
+msgid "Delete selected"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressAdmin.php:16
+#: modules/wootablepress/views/tpl/wootablepressAdmin.php:17
+msgid "Search"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressAdmin.php:28
+msgid "You have no Tables for now."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressAdmin.php:28
+msgid "Create"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressAdmin.php:28
+msgid "your Table"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:21
+msgid "Table name:"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:22
+msgid "Click to edit"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:37
+msgid "Table Shortcode"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:38
+msgid "Table PHP code"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:40
+msgid "Table PHP code: lets display the table through themes/plugins files (for example in the site footer). You can use shortcode in this way. <a href=\"https://woobewoo.com/documentation/how-to-add-a-product-table-to-a-page\" target=\"_blank\">Read more.</a>"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:66
+msgid "Will be created after first save"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:81
+msgid "Clone"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:86
+msgid "Delete"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:97
+msgid "Content"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:103
+msgid "CSS"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:106
+msgid "JS"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:122
+msgid "Table Columns"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:124
+msgid "Select properties to add to the table"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:141
+msgid "none"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:212
+msgid "Add"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:289
+msgid "Add products automatically"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:290
+msgid "Add products in this way and all the new products you will add to shop will be automatically added to the table and on frontend according to the selected category."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:297
+msgid "Add products variations automatically"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:298
+msgid "Add products in this way and all the new products variations you will add to shop will be automatically added to the table and on frontend according to the selected product."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:308
+#: modules/wootablepress/views/wootablepress.php:2538
+msgid "In table"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:345
+msgid "Column settings"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:349
+msgid "Title"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:355
+msgid "default"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:364
+msgid "Meta key"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:369
+msgid "Column width"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:370
+msgid "This setting sets the maximum width for the column, but the rest of the table content also affects its width - check how it looks on Preview."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:382
+msgid "Always hide"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:383
+msgid "(use only for hidden attributes)"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:388
+msgid "Hide on small screen"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:389
+msgid "The column will not appear in the table on mobile and small screens."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:393
+msgid "Show only on small screen"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:394
+msgid "The column will only appear in the table on mobile and small screens."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:398
+msgid "Show link to the"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:400
+msgid "Product page"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:402
+msgid "Quick view"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:412
+msgid "Cut product title text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:414
+msgid "Enter the maximum number of characters that should be reflected in the title."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:425
+msgid "Show parent title for product variations"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:427
+msgid "Product variations will display the parent title."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:432
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:798
+msgid "Open link on a new window"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:434
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:479
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:500
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:799
+msgid "Links will open in a new window."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:439
+msgid "Show category link"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:441
+msgid "The categories in the table will be displayed as links to the pages of the respective categories."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:450
+msgid "Open category link on a new window"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:455
+msgid "Doesn't work with inner filter category  option activated."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:463
+msgid "Display each category on a new line"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:465
+msgid "Categories in the table will be displayed separately from a new line."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:470
+msgid "Show tag link"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:472
+msgid "The tags in the table will be displayed as links to the pages of the respective tags."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:477
+msgid "Open tag page on a new window"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:484
+msgid "Display each tag on a new line"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:486
+msgid "Tags in the table will be displayed separately from a new line."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:491
+msgid "Show taxonomy link"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:493
+msgid "The taxonomies in the table will be displayed as links to the pages of the respective taxonomies."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:498
+msgid "Open taxonomy page on a new window"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:505
+msgid "Display each attribute on a new line"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:507
+msgid "Attributes in the table will be displayed separately from a new line."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:512
+msgid "Treat attribute column as integer data value for searching and sorting"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:518
+msgid "Cut description text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:520
+msgid "Enter the maximum number of characters that should be displayed in the description."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:530
+msgid "Cut short description text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:531
+msgid "Enter the maximum number of characters that should be displayed in the short description."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:541
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:752
+msgid "Do shortcodes?"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:542
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:753
+msgid "If the option is enabled, then shortcodes will work in the column."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:545
+msgid "Button text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:555
+msgid "Open a page in the same tab"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:560
+msgid "Show icons"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:561
+msgid "If the option is enabled, icons of the corresponding product availability status will be displayed."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:565
+msgid "Show status text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:566
+msgid "If the option is enabled, the text of the corresponding product availability status will be displayed."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:571
+msgid "Hide variation attributes"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:573
+msgid "Initially, variation attributes are displayed in the dropdown in the Buy column. Enable this option to hide variation attributes."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:579
+msgid "Show only marked as \"Visible on the product page\""
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:585
+msgid "Add class to row"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:587
+msgid "Each table row will have the class"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:593
+msgid "Show a button for each variation"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:595
+msgid "Variant attributes are initially displayed in a drop-down list in the Buy column. Enable this option to show the buy button for each variation separately. Be careful if there are too many variations."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:600
+msgid "Select options in the popup"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:602
+msgid "Only for variable products"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:605
+msgid "Select options"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:619
+msgid "Use a short description instead of a full description"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:626
+msgid "Add product note"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:628
+msgid "A note field will be added before Add to cart Button, which then will be stored as \"product_note\" metafield in the cart item data."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:634
+msgid "Natural order"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:636
+msgid "Sorting alphanumeric attribute names human familiar"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:641
+msgid "Custom order"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:643
+msgid "Use custom ordering for attributes"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:648
+msgid "Show short description below title"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:650
+msgid "A short description will be displayed in the Name column under the Product Title."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:654
+msgid "Add additional field to cart as product meta"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:659
+msgid "Short description popup"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:661
+msgid "Open popup when click short description with product full text short description on it."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:666
+msgid "Description popup"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:668
+msgid "Open popup when click description with product full description on it."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:672
+msgid "Add cart button"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:673
+msgid "If the option is enabled, then the Buy button will be displayed in this column."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:677
+msgid "Add second thumbnail"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:678
+msgid "Add first gallery image as a second column thumbnail."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:682
+msgid "Use product link"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:683
+msgid "If the option is enabled, then the content of this column will link to the corresponding product page."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:686
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:709
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:731
+msgid "Show as"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:687
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:710
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:732
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:742
+msgid "Select the type of content display for this column."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:691
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:735
+msgid "link"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:692
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:735
+msgid "button"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:693
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:715
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:735
+msgid "icon"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:694
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:716
+msgid "image"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:714
+msgid "text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:735
+msgid "audio"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:735
+msgid "video"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:741
+msgid "TRUE show as"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:756
+msgid "Button label"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:763
+msgid "Disable search on this column"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:764
+msgid "If this option is enabled, the content of this column will not be indexed for the search option."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:767
+msgid "Exclude terms ids"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:768
+msgid "Here you may exclude category terms by ids. Example input: 1,2,3"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:777
+msgid "Change SKU after variation change"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:778
+msgid "Initially, the column displays the sku of the parent product or the first variation. But if the option is enabled, then when changing the variation, the SKU will be changed."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:783
+msgid "Disable sorting on this column"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:784
+msgid "If the option is enabled, then the sorting function will not be available for this column."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:790
+msgid "Add icon to favorites"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:792
+msgid "A \"favorite\" icon will be added to quickly add to favorites."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:803
+msgid "Show quantity items in stock"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:804
+msgid "The exact number of remaining items will be shown."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:808
+msgid "Max quantity input"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:810
+msgid "Enter the maximum amount that can be displayed in the table. If the actual quantity is greater than this value, then the column will display \"value entered + 1\"."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:820
+msgid "Color if less than"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:821
+msgid "Change color if the quantity of products is less than"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:833
+msgid "Show variations quantity items in stock"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:839
+msgid "Show attribute names for variations quantity"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:845
+msgid "Responsive mod thumnbnail size"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:846
+msgid "If Responsive mode is enabled, this value will be used for the thumbnail size."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:863
+msgid "Clone table"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:881
+msgid "Table Content"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:883
+msgid "Add Products"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:900
+msgid "Displays the user's products"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:901
+msgid "Displays previously purchased products of the user"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:914
+msgid "Main"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:915
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1156
+msgid "Features"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:916
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1917
+msgid "Appearance"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:917
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2261
+msgid "Text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:923
+msgid "Main Settings"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:926
+msgid "Table Elements"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:931
+msgid "Caption"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:932
+msgid "Check here if you want to show the name of the table above the table."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:949
+msgid "Caption Text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:964
+msgid "Description"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:965
+msgid "You can add short description to the table between title and table."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:981
+msgid "Description Text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:996
+msgid "Header"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:997
+msgid "Check here if you want to show the table head."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1013
+msgid "Fixed Header"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1014
+msgid "Allows to fix the table's header during table scrolling. Important! Header option must be enabled for using this feature."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1030
+msgid "Top margin"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1031
+msgid "Option useful when page with table already has some fixed elements like fixed menu etc."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1052
+msgid "Top margin (mobile)"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1072
+msgid "Footer"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1073
+msgid "Check here if you want to show the table footer."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1087
+msgid "Signature"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1088
+msgid "You can add signature under table footer."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1104
+msgid "Signature Text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1117
+msgid "Date Formats"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1123
+msgid "Set output format for date. For example: y-m-d - 1991-12-25, d.m.y - 25.12.1991"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1139
+msgid "Time / Duration"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1140
+msgid "Set output format for time and duration. For example:  1) time - H:m - 18:00 , h:m a - 9:00 pm 2) duration h:m - 36:40, h:m:s - 36:40:12"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1164
+msgid "Table information"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1165
+msgid "Show pagination information after table."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1180
+msgid "Use pre-sorting"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1181
+msgid "Use pre-sorting."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1196
+msgid "Sorting type"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1197
+msgid "Select Manual option if you want to add a sort by drag-n-drop from the admin table preview to the frontend.<br>If you select sort by category, products will be grouped by product category. If a product has several categories, the first category in alphabetical order will be considered the main one. If there are variations in the table, they will not be grouped."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1204
+msgid "Manual"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1205
+msgid "Popularity"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1207
+msgid "Newness"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1209
+msgid "Random"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1211
+msgid "Menu order"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1212
+msgid "Category"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1224
+msgid "Sorting descending"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1225
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1273
+msgid "Enable the checkbox if you want to sort by descending."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1239
+msgid "Frontend sorting"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1240
+msgid "Allow dynamic sorting with arrows. To use this option you must enable Header option <a href=\"https://woobewoo.com/documentation/sorting-product-table\" target=\"_blank\">Read more.</a>"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1255
+msgid "Auto sorting"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1256
+msgid "Select the column to sort by default. Works only with relevant columns enabled."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1272
+msgid "Auto sorting descending"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1287
+msgid "Pagination"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1288
+msgid "Show table pagination."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1309
+msgid "Pagination menu"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1310
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1390
+msgid "Show drop down list to select the number of products on the page."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1331
+msgid "Scroll to top on pagination"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1332
+msgid "Scroll page to the top of the table when pagination is used."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1349
+msgid "Products per Page"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1350
+msgid "Here you can set the number of products to display on one Pagination page."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1367
+msgid "Pagination List Content"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1368
+msgid "Here you can set the number of rows to display on one Pagination page. Establish several numbers separated by comma to let users choose it personally. First number will be displayed by default. Since that the number of Pagination Pages will be recounted also."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1389
+msgid "Server-side Processing"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1401
+msgid "Searching"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1402
+msgid "Show table searching field.<a href=\"https://woobewoo.com/documentation/searching-feature-of-product-table\" target=\"_blank\">Read more.</a>"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1416
+msgid "Search by Columns"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1417
+msgid "Add search by table columns. Use a semicolon as separator for select any of the values."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1436
+msgid "Position"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1437
+msgid "Set search by table columns position."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1460
+msgid "Use newline as separator"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1461
+msgid "You can use newline as separator with search by column"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1471
+msgid "Search by letter"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1473
+msgid "Show alphabet for search by first letter"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1484
+#: modules/wootablepress/views/wootablepress.php:124
+msgid "Print"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1485
+msgid "Show table print button."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1505
+msgid "Print Logo"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1506
+msgid "Print website logo"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1526
+msgid "Print captions"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1527
+msgid "Print table caption, description and signature."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1541
+msgid "Export to CSV"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1542
+msgid "Show Export to CSV button."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1556
+msgid "Hide out of stock items"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1557
+msgid "Products that are out of stock will not be displayed in the table."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1571
+msgid "Show private products"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1572
+msgid "Products with the status \"Private\" will be displayed in the table."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1595
+msgid "Show message after put product to cart"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1596
+msgid "Show message in popup after put product to cart."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1611
+msgid "Popup position"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1612
+msgid "Select popup position."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1639
+msgid "Show variation description instead of product description"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1640
+msgid "Show variation description instead of product description in variations popup."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1660
+msgid "Show variation thumbnails"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1661
+msgid "Display the images of variations."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1675
+msgid "Show first variation as default"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1676
+msgid "The first variation will be selected by default."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1690
+msgid "Show variation price in price column"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1691
+msgid "Works only with enabled price column."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1705
+msgid "Multiple add to cart"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1706
+msgid "Multiple add to cart products. <a href=\"https://woobewoo.com/documentation/add-to-cart-button-and-variations/\" target=\"_blank\">Read more.</a>"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1720
+msgid "Add all to cart"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1721
+msgid "Add all to cart."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1735
+msgid "Hide view cart link"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1736
+msgid "Hide view cart link."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1750
+msgid "Lazy load"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1751
+msgid "Lazy load for big table"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1765
+msgid "Show products by vendor"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1766
+msgid "Automatically show products by WCFM vendor on Vendor page"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1781
+msgid "Hide quantity input"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1782
+msgid "Hide quantity input for add to cart button in the frontend"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1794
+msgid "Filters"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1804
+msgid "Attribute filter"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1805
+msgid "Attribute filter. Works only with enabled attribute columns. <a href=\"https://woobewoo.com/documentation/product-attribute-and-category-filters\" target=\"_blank\">Read more.</a>"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1819
+msgid "Hide searching attributes from table"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1820
+msgid "Hide attribute column(s) and keep the filter to display. You don’t need to add attributes as a column to make filters available. Selected filters will be displayed. If you will add some attribute as a column manually, it will not be hidden even is “Hide searching attributes from a table” is enabled."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1834
+msgid "Tags filter"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1835
+msgid "Tags filter. Works only with enabled tags column."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1850
+msgid "Custom taxonomy filter"
+msgstr ""
+
+#. translators: 1: link for Custom Post Type UI 2: link ACF 3: link for Read more
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1852
+msgid "Display filters for custom taxonomy created with the help of %1$s and %2$s plugins. %3$s"
+msgstr ""
+
+#. translators: 1: link for Custom Post Type UI 2: link ACF 3: link for Read more
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1852
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1885
+msgid "Read more"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1868
+msgid "Price filter"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1869
+msgid "Price filter. Works only with enabled Price column."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1884
+msgid "Category filter"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1885
+msgid "Category filter. Works only with enabled category column."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1901
+msgid "Hide products before filtering"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1902
+msgid "Hide all the products in the table until a user defines a search parameter or filter."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1922
+msgid "Fixed table width"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1923
+msgid "Set fixed table width in px or %."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1945
+msgid "Thumbnail size"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1946
+msgid "Select the image size to display in the frontend"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1968
+msgid "Custom image size"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1969
+msgid "Set width and height values in pixels (in that order)."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1989
+msgid "Mobile screen width"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:1990
+msgid "Select screen width to hide columns.  You can set which columns should be hidden on the Content tab in the column options."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2007
+msgid "Responsive Mode"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2008
+msgid "Standard Responsive mode - in this mode if table content doesn't fit all columns become under each other with one cell per row."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2009
+msgid "Automatic column hiding - in this mode table columns will collapse from right to left if content does not fit to parent container width."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2010
+msgid "Horizontal scroll - in this mode scroll bar will be added if table overflows parent container width."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2011
+msgid "Disable Responsivity - default table fluid layout.<a href=\"https://woobewoo.com/feature/fully-responsive\" target=\"_blank\">Read more.</a>"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2030
+msgid "Horizontal scrollbar position"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2031
+msgid "Here you can set horizontal scrollbar position."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2046
+msgid "Hide child action"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2047
+msgid "Set behavior for hide responsive child columns"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2066
+msgid "Force responsive mod"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2067
+msgid "Force enable responsive mod for automatic column hiding."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2081
+msgid "Row Striping"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2082
+msgid "Add automatic highlight for table odd rows"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2096
+msgid "Highlighting by Mousehover"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2097
+msgid "Row highlighting by mouse hover."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2111
+msgid "Highlight Sorted Column"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2112
+msgid "If checked - the current sorted column will be highlighted"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2126
+msgid "Borders"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2127
+msgid "Cell - adds border around all four sides of each cell, Row - adds border only over and under each row. (i.e. only for the rows)."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2143
+msgid "Hide Table Loader"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2144
+msgid "Enable / disable table loader icon before table will be completely loaded."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2165
+msgid "Table Loader Icon"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2166
+msgid "Choose icon for loader."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2181
+msgid "Table Loader Color"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2182
+msgid "Choose color for loader"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2196
+msgid "Table Styling"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2206
+msgid "Use custom table styles"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2207
+msgid "Choose your custom table styles below. Any settings you leave blank will default to your theme styles."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2219
+msgid "Buy Button Styling"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2224
+msgid "Use custom Buy Button styles"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2225
+msgid "Choose your custom styles for button Add to cart. Any settings you leave blank will default."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2244
+msgid "View Cart Styling"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2249
+msgid "Use custom View Cart styles"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2250
+msgid "Choose your custom styles for button View Cart. Any settings you leave blank will default."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2262
+msgid "Button text."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2277
+msgid "Button Color"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2291
+msgid "Language and Text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2294
+msgid "Overwrite Table Text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2299
+msgid "Add selected to cart button text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2314
+msgid "Add all to cart button text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2329
+msgid "Add variation to cart button text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2344
+msgid "Empty table"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2359
+msgid "Table info text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2374
+msgid "Empty info text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2389
+msgid "Filtered info text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2404
+msgid "Length text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2419
+msgid "Search label"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2434
+msgid "Processing text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2449
+msgid "Zero records"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2464
+msgid "Previous page (Pagination)"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2479
+msgid "Next page (Pagination)"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2494
+msgid "Filter text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2509
+msgid "Reset text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2524
+msgid "Stock quantity items text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2539
+msgid "Select attributes text"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2554
+msgid "Product added to cart button text (MPC)"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2569
+msgid "Product not added to cart button text (MPC)"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2584
+msgid "Replacing the text \"out of stock\""
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2604
+msgid "Desktop"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2607
+msgid "Tablet"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2610
+msgid "Mobile"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2619
+msgid "Loading your table, please wait..."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2630
+msgid "Table is empty"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2636
+msgid "Note that the table may look a little different depending on your theme style."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2646
+msgid "Here you can add custom CSS for the current Table."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2660
+msgid "Here you can add custom JavaScript for the current Table."
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2700
+msgid "full size"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressEditAdmin.php:2701
+msgid "set size"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressVariablesPopup.php:11
+#: modules/wootablepress/views/wootablepress.php:2080
+msgid "Product note (optional)"
+msgstr ""
+
+#: modules/wootablepress/views/tpl/wootablepressVariablesPopup.php:12
+#: modules/wootablepress/views/wootablepress.php:2081
+msgid "Add your note here, please…"
+msgstr ""
+
+#: modules/wootablepress/views/wootablepress.php:114
+msgid "There're no products in the table"
+msgstr ""
+
+#: modules/wootablepress/views/wootablepress.php:115
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr ""
+
+#: modules/wootablepress/views/wootablepress.php:116
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+#: modules/wootablepress/views/wootablepress.php:117
+msgid "(filtered from _MAX_ total entries)"
+msgstr ""
+
+#: modules/wootablepress/views/wootablepress.php:118
+msgid "Show: _MENU_"
+msgstr ""
+
+#: modules/wootablepress/views/wootablepress.php:119
+msgid "Search:"
+msgstr ""
+
+#: modules/wootablepress/views/wootablepress.php:120
+msgid "Processing..."
+msgstr ""
+
+#: modules/wootablepress/views/wootablepress.php:121
+msgid "No matching records are found"
+msgstr ""
+
+#: modules/wootablepress/views/wootablepress.php:122
+msgid "Previous"
+msgstr ""
+
+#: modules/wootablepress/views/wootablepress.php:123
+msgid "Next"
+msgstr ""
+
+#: modules/wootablepress/views/wootablepress.php:652
+msgid "You need to enable pagination and server-side processing options or reduce the number of selected products, because the products table may not work at the front!"
+msgstr ""
+
+#: modules/wootablepress/views/wootablepress.php:1659
+#: modules/wootablepress/views/wootablepress.php:1664
+#: modules/wootablepress/views/wootablepress.php:1680
+#: modules/wootablepress/views/wootablepress.php:1685
+msgid "item(s)"
+msgstr ""
+
+#: modules/wootablepress/views/wootablepress.php:2400
+msgid "Add for"
+msgstr ""
+
+#: modules/wootablepress/views/wootablepress.php:2411
+msgid "yes"
+msgstr ""
+
+#: modules/wootablepress/views/wootablepress.php:2412
+msgid "no"
+msgstr ""
+
+#: modules/wootablepress/views/wootablepress.php:2541
+msgid "Variation"
+msgstr ""
