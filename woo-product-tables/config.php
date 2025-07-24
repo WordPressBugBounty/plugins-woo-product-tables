@@ -1,10 +1,20 @@
 <?php
+/**
+ * Product Table by WBW - Config
+ *
+ * @author  woobewoo
+ */
+
+defined( 'ABSPATH' ) || exit;
+
 global $wpdb;
+
 if (!defined('WPLANG') || WPLANG == '') {
 	define('WTBP_WPLANG', 'en_GB');
 } else {
 	define('WTBP_WPLANG', WPLANG);
 }
+
 if (!defined('DS')) {
 	define('DS', DIRECTORY_SEPARATOR);
 }
@@ -50,7 +60,7 @@ define('WTBP_CURRENT', 'current');
 define('WTBP_EOL', "\n");
 
 define('WTBP_PLUGIN_INSTALLED', true);
-define('WTBP_VERSION', '2.1.9');
+define('WTBP_VERSION', '2.2.0');
 define('WTBP_USER', 'user');
 
 define('WTBP_CLASS_PREFIX', 'wtbpc');
@@ -69,20 +79,24 @@ define('WTBP_ALL', 'all');
 
 define('WTBP_METHODS', 'methods');
 define('WTBP_USERLEVELS', 'userlevels');
+
 /**
- * Framework instance code
+ * Framework instance code.
  */
 define('WTBP_CODE', 'wtbp');
 define('WTBP_LANG_CODE', 'woo-product-tables');
+
 /**
- * Plugin name
+ * Plugin name.
  */
 define('WTBP_WP_PLUGIN_NAME', 'WBW Product Table');
+
 /**
- * Custom defined for plugin
+ * Custom defined for plugin.
  */
 define('WTBP_SHORTCODE', 'wtbp-table-press');
+
 /**
- * Custom defined for plugin
+ * Custom defined for plugin.
  */
 define('WTBP_PLUG_PRO_MODULE', 'wootablespro');

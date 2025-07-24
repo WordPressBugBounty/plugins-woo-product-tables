@@ -1,5 +1,8 @@
 *** WBW Product Table ***
 
+2025-07-24 - version 2.2.0
+* Dev - Coding standards improved.
+
 2025-07-21 - version 2.1.9
 * WC tested up to: 10.0.
 
