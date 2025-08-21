@@ -3,16 +3,18 @@
  * Plugin Name: Product Table by WBW
  * Plugin URI: https://woobewoo.com/plugins/table-woocommerce-plugin/
  * Description: Post your product easy in tables
- * Version: 2.2.0
+ * Version: 2.2.1
  * Author: woobewoo
  * Author URI: https://woobewoo.com
  * Requires at least: 3.3
  * Text Domain: woo-product-tables
  * Domain Path: /languages
  * WC requires at least: 3.4.0
- * WC tested up to: 10.0
+ * WC tested up to: 10.1
  * Requires Plugins: woocommerce
- **/
+ */
+
+defined( 'ABSPATH' ) || exit;
 
 /**
  * Base config constants and functions.

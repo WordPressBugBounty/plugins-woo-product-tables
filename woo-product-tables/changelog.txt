@@ -1,5 +1,9 @@
 *** WBW Product Table ***
 
+2025-08-21 - version 2.2.1
+* Dev - Coding standards improved.
+* WC tested up to: 10.1.
+
 2025-07-24 - version 2.2.0
 * Dev - Coding standards improved.
 
@@ -401,358 +405,358 @@
 * Fix header table border adjusting issue
 
 2020-10-29 - version 1.3.4
- * Minor issues fix
+* Minor issues fix
 
 2020-10-15 - version 1.3.3
- * Code review
- * Fix for WC Vendors support
+* Code review
+* Fix for WC Vendors support
 
 2020-09-16 - version 1.3.2
- * Added import/export tables
- * Remove acf 5.9 notice
- * Add min/max optionality with bunch add to cart options
- * Fix Jetpack plugin compatibility of lazy load functionality
- * Fix for table column "Buy" variation attribute quantity
- * Fixes for MPC variations
- * Added variables popup
- * Add hide child columns responsive table mode optionality
- * Added short description below title option
- * Add margin top optionality for fixed table headers
+* Added import/export tables
+* Remove acf 5.9 notice
+* Add min/max optionality with bunch add to cart options
+* Fix Jetpack plugin compatibility of lazy load functionality
+* Fix for table column "Buy" variation attribute quantity
+* Fixes for MPC variations
+* Added variables popup
+* Add hide child columns responsive table mode optionality
+* Added short description below title option
+* Add margin top optionality for fixed table headers
 
 2020-08-23 - version 1.3.1
- * Added support for WCFM
- * Fixes for custom tax name in add_to_cart column
- * Add popup add to cart positioin optionality
- * Fixed category filter with terms with the same names
- * Add inner category filter for category column in table
- * Add variation title optinality setting
- * Added cart button for each variation
- * Fix lazy load attribute filter issue
- * Fix css conflict with flatsome theme
- * Fix multisite plugin activation issue
- * Fix Wholesale Prices Primium plpugin compability
- * Fixes for local acf fields
- * Add "B2B for WooCommerce" plugin compability with lazy load table optionality
- * Added newline as separator for column search
- * Fixes for license menu tab
- * Fixes for table border styles
- * Fixes for search by column with ssp
- * Fixes for add to cart btn
- * Fix Avada theme compability pagination issue
- * Fixes for get attributes hierarchy
+* Added support for WCFM
+* Fixes for custom tax name in add_to_cart column
+* Add popup add to cart positioin optionality
+* Fixed category filter with terms with the same names
+* Add inner category filter for category column in table
+* Add variation title optinality setting
+* Added cart button for each variation
+* Fix lazy load attribute filter issue
+* Fix css conflict with flatsome theme
+* Fix multisite plugin activation issue
+* Fix Wholesale Prices Primium plpugin compability
+* Fixes for local acf fields
+* Add "B2B for WooCommerce" plugin compability with lazy load table optionality
+* Added newline as separator for column search
+* Fixes for license menu tab
+* Fixes for table border styles
+* Fixes for search by column with ssp
+* Fixes for add to cart btn
+* Fix Avada theme compability pagination issue
+* Fixes for get attributes hierarchy
 
 2020-07-15 - version 1.3.0
- * Rename plugin and add socials links on plugin page
- * Added Italian language
- * Added products variations automatically option
- * Add to ACF conditional fields optionally add additional meta when put product to cart
- * Fixes for table filters
- * Fixes for tags filtering
- * Added WC Vendors support
- * Add support to ACF layout group fields
- * Added oembed and wysiwyg support for video
- * Fix Firefox issue with custom CSS editor
- * Added show stock count for variations option
- * Added custom attribute order option
- * Fix pagination save page issue when redirect to another page and come back
- * Fixes for Checkboxes position option
- * Add notification functionality to all products added to cart
- * Fix table header issue
- * Added use product link option for thumbnails
- * Added columns weight and dimensions in pro
- * Added do shortcode option
- * Added change sku option
- * Fixes for Shortcode description
- * Fixes for dimensions
+* Rename plugin and add socials links on plugin page
+* Added Italian language
+* Added products variations automatically option
+* Add to ACF conditional fields optionally add additional meta when put product to cart
+* Fixes for table filters
+* Fixes for tags filtering
+* Added WC Vendors support
+* Add support to ACF layout group fields
+* Added oembed and wysiwyg support for video
+* Fix Firefox issue with custom CSS editor
+* Added show stock count for variations option
+* Added custom attribute order option
+* Fix pagination save page issue when redirect to another page and come back
+* Fixes for Checkboxes position option
+* Add notification functionality to all products added to cart
+* Fix table header issue
+* Added use product link option for thumbnails
+* Added columns weight and dimensions in pro
+* Added do shortcode option
+* Added change sku option
+* Fixes for Shortcode description
+* Fixes for dimensions
 
 
 2020-06-17 - version 1.2.9
- * Fix issue with thumbnail size in preview mode with mobile display
- * Add cut text functionality for a product name column
- * Change CDN URL
- * Added ability to dynamically change filter contents
- * Hide woobewoo-admin-style
- * Added ACF input fields
- * Add edit text and button color functionality to View Cart button
- * Change updater link
- * Add min/max quantity functionality to variation products
- * Add flexible select tat functionality to tables filter's
- * Add new sorting by optionality with "Menu Order" value
- * Add short description popup functionality
- * Added search by column position option
- * Small fixes for admin icon style
- * Fixes for responsive mode
- * Fixes for search by tags
- * Added lazy load option
- * Fixes for column search
- * Add ACF plugin support display in table as admin view for logical fields
- * Add support to ACF relation group fields
- * Add ACF plugin support display for a Google map and Color Picker fields
- * Fixes for template script loader
- * Added print logo option
- * Added support category-tag relation
- * Fixes for SSP filtering
- * Fix bulk plugin activate issue
+* Fix issue with thumbnail size in preview mode with mobile display
+* Add cut text functionality for a product name column
+* Change CDN URL
+* Added ability to dynamically change filter contents
+* Hide woobewoo-admin-style
+* Added ACF input fields
+* Add edit text and button color functionality to View Cart button
+* Change updater link
+* Add min/max quantity functionality to variation products
+* Add flexible select tat functionality to tables filter's
+* Add new sorting by optionality with "Menu Order" value
+* Add short description popup functionality
+* Added search by column position option
+* Small fixes for admin icon style
+* Fixes for responsive mode
+* Fixes for search by tags
+* Added lazy load option
+* Fixes for column search
+* Add ACF plugin support display in table as admin view for logical fields
+* Add support to ACF relation group fields
+* Add ACF plugin support display for a Google map and Color Picker fields
+* Fixes for template script loader
+* Added print logo option
+* Added support category-tag relation
+* Fixes for SSP filtering
+* Fix bulk plugin activate issue
 
 2020-05-20 - version 1.2.8
- * Add hide variations/attributes optional for a "Buy" column
- * Added Option Included children for category filter
- * Added max quantity stock control optionality
- * Add Option Included children for SSP
- * Fix responsive issue with hidden page elements that have plugin tables
- * Add second thumbnail optionality
- * Added option for exclude categories
- * Added running shortcodes for ACF text fields
- * Add change "Add to cart" button text optionality
- * Added option for change checkboxes position
- * Added support Variable subscription product type
+* Add hide variations/attributes optional for a "Buy" column
+* Added Option Included children for category filter
+* Added max quantity stock control optionality
+* Add Option Included children for SSP
+* Fix responsive issue with hidden page elements that have plugin tables
+* Add second thumbnail optionality
+* Added option for exclude categories
+* Added running shortcodes for ACF text fields
+* Add change "Add to cart" button text optionality
+* Added option for change checkboxes position
+* Added support Variable subscription product type
 
 2020-04-29 - version 1.2.7
- * Added Hide products before filtering
- * Added button View cart for variable products
- * Add filter title option
- * Minor issues fix
+* Added Hide products before filtering
+* Added button View cart for variable products
+* Add filter title option
+* Minor issues fix
 
 2020-04-08 - version 1.2.6
- * Save ambiguous attributes for variations by added to cart
- * Added converter for custom attributes
- * Added translation possibility for Processing… text
- * Added Disable individual column search
- * Added open downloads links in a new window
+* Save ambiguous attributes for variations by added to cart
+* Added converter for custom attributes
+* Added translation possibility for Processing… text
+* Added Disable individual column search
+* Added open downloads links in a new window
 
 2020-03-19 - version 1.2.5
- * Added License for Codecanyon
- * Fixed admin styles
- * Added custom pre-sorting
- * Added cart button to Thumbnail column
- * Added custom sorting to category filter
- * Added custom sorting to tag and attribute filters
- * Added compatibility with YITH Quick view plugin
- * Added backend search by SCU in pro
- * Small fixes for backend search by SCU in pro
- * Fixes for custom category filter
- * Added option for Accent neutraliling
- * Fix for quantity input with min/max values
- * Fixes search by price with currency converters
- * Added variation description
+* Added License for Codecanyon
+* Fixed admin styles
+* Added custom pre-sorting
+* Added cart button to Thumbnail column
+* Added custom sorting to category filter
+* Added custom sorting to tag and attribute filters
+* Added compatibility with YITH Quick view plugin
+* Added backend search by SCU in pro
+* Small fixes for backend search by SCU in pro
+* Fixes for custom category filter
+* Added option for Accent neutraliling
+* Fix for quantity input with min/max values
+* Fixes search by price with currency converters
+* Added variation description
 
 2020-02-18 - version 1.2.4
- * Added Hover styles for cart buttons
- * Custom sorting improvement
- * Minor issues fix
+* Added Hover styles for cart buttons
+* Custom sorting improvement
+* Minor issues fix
 
 2020-02-05 - version 1.2.3
- * Add multisite support
- * Fix compatibility for php below 5.5
- * Added woo-keys
- * Remove license tab on multisite not main sites
- * Fixed ligthbox in Automatic column hiding mode
- * Fixes for dashboard styles in mobile mode
- * Add changelog file for Pro
- * Fix for row borders
- * Added link options for custom taxonomies
- * Added Filter for ACF-fields
- * Added Js Editor
+* Add multisite support
+* Fix compatibility for php below 5.5
+* Added woo-keys
+* Remove license tab on multisite not main sites
+* Fixed ligthbox in Automatic column hiding mode
+* Fixes for dashboard styles in mobile mode
+* Add changelog file for Pro
+* Fix for row borders
+* Added link options for custom taxonomies
+* Added Filter for ACF-fields
+* Added Js Editor
 
 2020-01-22 - version 1.2.2
- * Updates for WooCommerce 3.9.0
+* Updates for WooCommerce 3.9.0
 
 2020-01-21 - version 1.2.1
- * Add "PRO" tags for changelog
- * PRO: Add fix for atribute filter
- * Minor issues fix
+* Add "PRO" tags for changelog
+* PRO: Add fix for atribute filter
+* Minor issues fix
 
 2020-01-15 - version 1.2.0
- * PRO: Added custom styles for Buy Button
- * Added Tags Column and Multiple and search for filters
- * PRO: Added Price Filter
- * PRO: Added price filter for variable product
- * Changelog add
- * Added new tooltips, images and documentations links
- * Adapting the plugin code to comply with WooCommerce sniffs rules
- * Minor issues fix
+* PRO: Added custom styles for Buy Button
+* Added Tags Column and Multiple and search for filters
+* PRO: Added Price Filter
+* PRO: Added price filter for variable product
+* Changelog add
+* Added new tooltips, images and documentations links
+* Adapting the plugin code to comply with WooCommerce sniffs rules
+* Minor issues fix
 
 2019-12-24 - version 1.1.9
- * Added option Show category link and fixed dashboard styles
- * Fixes for WooCommerce Codex
- * New admin disign
- * Minor issues fix
+* Added option Show category link and fixed dashboard styles
+* Fixes for WooCommerce Codex
+* New admin disign
+* Minor issues fix
 
 2019-12-05 - version 1.1.8
- * Show variations fix
- * Add pagination step for product add datatable
- * Remove PHP Mailer
- * Fixed search variations by category
- * Added line break for categories and attributes columns
- * Minor issues fix
+* Show variations fix
+* Add pagination step for product add datatable
+* Remove PHP Mailer
+* Fixed search variations by category
+* Added line break for categories and attributes columns
+* Minor issues fix
 
 2019-11-14 - version 1.1.7
- * Revision styles for variable products
- * Add fix for custom syles
- * Fix variable price for responsive mode
- * Add new table error fix for WordPress 5.3
+* Revision styles for variable products
+* Add fix for custom syles
+* Fix variable price for responsive mode
+* Add new table error fix for WordPress 5.3
 
 2019-10-30 - version 1.1.6
- * Fix deprecated finction
- * Fixed expired license
- * Add features for stling
- * Add sorting attributes by name
+* Fix deprecated finction
+* Fixed expired license
+* Add features for stling
+* Add sorting attributes by name
 
 2019-10-09 - version 1.1.5
- * Added Sale price dates
- * Control outofstock for variable products
- * Added the ability to open the category link in a new window
- * Added SSP for Admin Content Table
- * Added width for all columns
- * Minor issues fix
+* Added Sale price dates
+* Control outofstock for variable products
+* Added the ability to open the category link in a new window
+* Added SSP for Admin Content Table
+* Added width for all columns
+* Minor issues fix
 
 2019-09-25 - version 1.1.4
- * Add search by hidden attributes
- * Fix some MPC bugs
- * Fix css for responsive mod
- * Fixed mobile variation option
- * Fixed showed variation attributes
- * Added hide quantity input option
- * Transfer hide quantity input otion to features tab
- * Fixed table price view in Erfold theme
- * Fix translate title for button add to cart MPC
- * Add CSS fix for quantity div, responsive mode
- * Fixed variation instock attributes
+* Add search by hidden attributes
+* Fix some MPC bugs
+* Fix css for responsive mod
+* Fixed mobile variation option
+* Fixed showed variation attributes
+* Added hide quantity input option
+* Transfer hide quantity input otion to features tab
+* Fixed table price view in Erfold theme
+* Fix translate title for button add to cart MPC
+* Add CSS fix for quantity div, responsive mode
+* Fixed variation instock attributes
 
 2019-09-11 - version 1.1.3
- * Added custom styles to print
- * Added ACF-field true/false
- * Fixed elementor conflict
- * Added button Add all to cart
- * Fixed MPC ajax answer
- * Fix spelling error
- * Add ssp in admin page
- * Fixed getFilterHtml pro function
- * Fixed view cart option
- * Added notice in admin, modify setting_data field to medium text
- * Add css fix
- * Added column Downloads
- * Fix for Measurement Price Calculator
- * Remove error notice for SSP and Measurement Price Calculator
- * Fixed responsive modes
- * Minor issues fix
+* Added custom styles to print
+* Added ACF-field true/false
+* Fixed elementor conflict
+* Added button Add all to cart
+* Fixed MPC ajax answer
+* Fix spelling error
+* Add ssp in admin page
+* Fixed getFilterHtml pro function
+* Fixed view cart option
+* Added notice in admin, modify setting_data field to medium text
+* Add css fix
+* Added column Downloads
+* Fix for Measurement Price Calculator
+* Remove error notice for SSP and Measurement Price Calculator
+* Fixed responsive modes
+* Minor issues fix
 
 2019-08-11 - version 1.1.2
- * Fixes for new wp translations
- * Add option Show quantity items in stock issue
- * Add option Stock quantity items text issue
- * Add select attributes features
- * Add attribute feature for already created table and add product attributes
- * Add caption, description and signature to print issue
- * Fix products counter
- * Replace wp_query to wpdb issue
- * Add title, description, siganture to print page issue
- * Add option Open product link on a new window issue
- * Add responsive dependence from option Mobile screen width issue
- * Added image/icon for Featured column
- * Add Instock quantity checker for variants issue
- * Added author and tag filters
- * Small code fixes to support php 7.3
- * Small code fixes (change time limit)
- * Minor issues fix
+* Fixes for new wp translations
+* Add option Show quantity items in stock issue
+* Add option Stock quantity items text issue
+* Add select attributes features
+* Add attribute feature for already created table and add product attributes
+* Add caption, description and signature to print issue
+* Fix products counter
+* Replace wp_query to wpdb issue
+* Add title, description, siganture to print page issue
+* Add option Open product link on a new window issue
+* Add responsive dependence from option Mobile screen width issue
+* Added image/icon for Featured column
+* Add Instock quantity checker for variants issue
+* Added author and tag filters
+* Small code fixes to support php 7.3
+* Small code fixes (change time limit)
+* Minor issues fix
 
 2019-07-12 - version 1.1.1
- * Move add_to_cart functionality to free version
- * Fix table save settings problem issue
- * Fix product id after product variables
- * Fix variation id add_to_cart for new version of wocommerce
- * Fix on resize pagination move to first page
- * Add filter by specific attribute
- * Fix create table if hash allready added
- * Added custom field Url
- * Improve encoding, decoding for cyrillic, and diacritical symbols
- * Add translate text input
- * Minor issues fix
+* Move add_to_cart functionality to free version
+* Fix table save settings problem issue
+* Fix product id after product variables
+* Fix variation id add_to_cart for new version of wocommerce
+* Fix on resize pagination move to first page
+* Add filter by specific attribute
+* Fix create table if hash allready added
+* Added custom field Url
+* Improve encoding, decoding for cyrillic, and diacritical symbols
+* Add translate text input
+* Minor issues fix
 
 2019-04-30 - version 1.1.0
- * Added title link as default
- * Fix attributes bug
- * Added variation thumbnails and one variation per row
+* Added title link as default
+* Fix attributes bug
+* Added variation thumbnails and one variation per row
 
 2019-04-14 - version 1.0.9
- * Added private products
- * Added hierarchy for Category Filter
- * Fix dropdown overflow
- * Added product list by table creation and other
- * Add feature short description
- * Add Thumbnail Size for Adaptive Mode
- * Fix CSS for td.price
- * Shortcode add to cart, Hide button, price, columns, compatibility with CatalogVisibilityOptions, added input translate to Add selected to cart
- * Added Custom Fields support
- * Safari bug fix
- * Fix haschange for JetPack
- * Fix CSS under button add to cart
- * Undisabled checkbox and unselect2 in pro issue
- * Added Custom Styles
- * Added Serach by Columns
- * Fix hide cart, price columns
- * Fix deactivation dialog
- * Fix conflict with datatable deactivation gialog
- * Hide view cart link fix
- * Add option disable link for title column
- * Fix check title link for new tables
- * Minor issues fix
+* Added private products
+* Added hierarchy for Category Filter
+* Fix dropdown overflow
+* Added product list by table creation and other
+* Add feature short description
+* Add Thumbnail Size for Adaptive Mode
+* Fix CSS for td.price
+* Shortcode add to cart, Hide button, price, columns, compatibility with CatalogVisibilityOptions, added input translate to Add selected to cart
+* Added Custom Fields support
+* Safari bug fix
+* Fix haschange for JetPack
+* Fix CSS under button add to cart
+* Undisabled checkbox and unselect2 in pro issue
+* Added Custom Styles
+* Added Serach by Columns
+* Fix hide cart, price columns
+* Fix deactivation dialog
+* Fix conflict with datatable deactivation gialog
+* Hide view cart link fix
+* Add option disable link for title column
+* Fix check title link for new tables
+* Minor issues fix
 
 2019-03-25 - version 1.0.8
- * Added option Hide out of stock items and column Stock status in search table
- * Admin panel links fix
- * Preview fix
- * Save button fix
- * Minor issues fix
+* Added option Hide out of stock items and column Stock status in search table
+* Admin panel links fix
+* Preview fix
+* Save button fix
+* Minor issues fix
 
 2019-03-20 - version 1.0.7
- * Add select for quantity product on admin page
- * Added sorting numerically for Price Column
- * Added feature Attributes filter position select
- * Add fix for translate languages and Netherland
- * Fix the focus loss for quantity inputs
+* Add select for quantity product on admin page
+* Added sorting numerically for Price Column
+* Added feature Attributes filter position select
+* Add fix for translate languages and Netherland
+* Fix the focus loss for quantity inputs
 
 2019-02-26 - version 1.0.6
- * Screenshots update
- * Add feature custom sortable from preview to frontend
- * Add Drag and Drop sorting
- * Minor issues fix
+* Screenshots update
+* Add feature custom sortable from preview to frontend
+* Add Drag and Drop sorting
+* Minor issues fix
 
 2019-02-20 - version 1.0.5
- * Add WBW-logo as default loader
- * Added option Add products automatically
- * Added default sorting
- * Added hidden products
+* Add WBW-logo as default loader
+* Added option Add products automatically
+* Added default sorting
+* Added hidden products
 
 2019-02-06 - version 1.0.4
- * Screenshots update
- * Added possibility to hide view cart
- * Added possibility to view horizontal scroll on top
- * Added Pagination Menu and Clone Table
- * Add Custom CSS Option
- * Added different responsive modes
- * Add filters and other fields in preview and move multiple checkboxes in the first column
- * Created Pro-version, add make it possible to select several attributes for filtering
- * Fix for printing of the table
+* Screenshots update
+* Added possibility to hide view cart
+* Added possibility to view horizontal scroll on top
+* Added Pagination Menu and Clone Table
+* Add Custom CSS Option
+* Added different responsive modes
+* Add filters and other fields in preview and move multiple checkboxes in the first column
+* Created Pro-version, add make it possible to select several attributes for filtering
+* Fix for printing of the table
 
 2018-12-20 - version 1.0.3
- * Fixed data columns sorting
- * Disabled tutorial
- * Promo links fix
- * Сss fix
- * Minor issues fix
- * Added One-Attribute Columns
- * Added attribute selection for variable products
- * Move Manage Table Content in popup and add button Select all
- * Update wootablepressEditAdmin.php
+* Fixed data columns sorting
+* Disabled tutorial
+* Promo links fix
+* Сss fix
+* Minor issues fix
+* Added One-Attribute Columns
+* Added attribute selection for variable products
+* Move Manage Table Content in popup and add button Select all
+* Update wootablepressEditAdmin.php
 
 2018-07-26 - version 1.0.2
- * Add language files
- * Fixed double tooltips display.
- * Added review count column.
- * Fixed multy add products quantity.
- * Fixed add to cart.
- * Remove external connections by GDPR.
+* Add language files
+* Fixed double tooltips display.
+* Added review count column.
+* Fixed multy add products quantity.
+* Fixed add to cart.
+* Remove external connections by GDPR.
 
 2018-04-24 - version 1.0.1
 * Release on wordpress.org

@@ -1,8 +1,21 @@
 <?php
+/**
+ * Product Table by WBW - ModInstallerWtbp Class
+ *
+ * @author  woobewoo
+ */
+
+defined( 'ABSPATH' ) || exit;
+
 class ModInstallerWtbp {
-	private static $_current = array();
+
 	/**
-	 * Install new ModuleWtbp into plugin
+	 * _current.
+	 */
+	private static $_current = array();
+
+	/**
+	 * Install new ModuleWtbp into plugin.
 	 *
 	 * @param string $module new ModuleWtbp data (@see classes/tables/modules.php)
 	 * @param string $path path to the main plugin file from what module is installed
@@ -20,7 +33,7 @@ class ModInstallerWtbp {
 				if (empty($module['ex_plug_dir'])) {
 					$filesMoved = self::moveFiles($module['code'], $path);
 				} else {
-					$filesMoved = true;     //Those modules doesn't need to move their files
+					$filesMoved = true; //Those modules doesn't need to move their files
 				}
 				if ($filesMoved) {
 					if (FrameWtbp::_()->getTable('modules')->exists($module['code'], 'code')) {
@@ -44,6 +57,10 @@ class ModInstallerWtbp {
 		}
 		return false;
 	}
+
+	/**
+	 * _runModuleInstall.
+	 */
 	protected static function _runModuleInstall( $module, $action = 'install' ) {
 		$moduleLocationDir = WTBP_MODULES_DIR;
 		if (!empty($module['ex_plug_dir'])) {
@@ -60,8 +77,9 @@ class ModInstallerWtbp {
 			}
 		}
 	}
+
 	/**
-	 * Check whether is or no module in given path
+	 * Check whether is or no module in given path.
 	 *
 	 * @param string $path path to the module
 	 * @return bool true if it is module, else - false
@@ -69,8 +87,9 @@ class ModInstallerWtbp {
 	public static function isModule( $path ) {
 		return true;
 	}
+
 	/**
-	 * Move files to plugin modules directory
+	 * Move files to plugin modules directory.
 	 *
 	 * @param string $code code for module
 	 * @param string $path path from what module will be moved
@@ -89,6 +108,10 @@ class ModInstallerWtbp {
 		}
 		return false;
 	}
+
+	/**
+	 * _getPluginLocations.
+	 */
 	private static function _getPluginLocations() {
 		$locations = array();
 		$plug = ReqWtbp::getVar('plugin');
@@ -96,12 +119,16 @@ class ModInstallerWtbp {
 			$plug = ReqWtbp::getVar('checked');
 			$plug = $plug[0];
 		}
-		$locations['plugPath'] = plugin_basename( trim( $plug ) );
-		$locations['plugDir'] = dirname(WP_PLUGIN_DIR . DS . $locations['plugPath']);
+		$locations['plugPath']     = plugin_basename( trim( $plug ) );
+		$locations['plugDir']      = dirname(WP_PLUGIN_DIR . DS . $locations['plugPath']);
 		$locations['plugMainFile'] = WP_PLUGIN_DIR . DS . $locations['plugPath'];
-		$locations['xmlPath'] = $locations['plugDir'] . DS . 'install.xml';
+		$locations['xmlPath']      = $locations['plugDir'] . DS . 'install.xml';
 		return $locations;
 	}
+
+	/**
+	 * _getModulesFromXml.
+	 */
 	private static function _getModulesFromXml( $xmlPath ) {
 		$xml = UtilsWtbp::getXml($xmlPath);
 		if ($xml) {
@@ -124,8 +151,9 @@ class ModInstallerWtbp {
 		}
 		return false;
 	}
+
 	/**
-	 * Check whether modules is installed or not, if not and must be activated - install it
+	 * Check whether modules is installed or not, if not and must be activated - install it.
 	 *
 	 * @param array $codes array with modules data to store in database
 	 * @param string $path path to plugin file where modules is stored (__FILE__ for example)
@@ -146,7 +174,7 @@ class ModInstallerWtbp {
 					//If module Exists - just activate it, we can't check this using FrameWtbp::moduleExists because this will not work for multy-site WP
 					if (FrameWtbp::_()->getTable('modules')->exists($modDataArr['code'], 'code')) {
 						self::activate($modDataArr);
-					} else {                                           //  if not - install it
+					} else { // if not - install it
 						if (!self::install($modDataArr, $locations['plugDir'])) {
 							/* translators: %s: module name */
 							ErrorsWtbp::push(esc_html(sprintf(__('Install %s failed'), $modDataArr['code'])), ErrorsWtbp::MOD_INSTALL);
@@ -164,6 +192,7 @@ class ModInstallerWtbp {
 		update_option(WTBP_CODE . '_full_installed', 1);
 		return true;
 	}
+
 	/**
 	 * Public alias for _getCheckRegPlugs()
 	 */
@@ -173,8 +202,9 @@ class ModInstallerWtbp {
 	public static function checkActivationMessages() {
 
 	}
+
 	/**
-	 * Deactivate module after deactivating external plugin
+	 * Deactivate module after deactivating external plugin.
 	 */
 	public static function deactivate() {
 		$locations = self::_getPluginLocations();
@@ -182,7 +212,7 @@ class ModInstallerWtbp {
 		if ($modules) {
 			foreach ($modules as $m) {
 				$modDataArr = UtilsWtbp::xmlNodeAttrsToArr($m);
-				if (FrameWtbp::_()->moduleActive($modDataArr['code'])) { //If module is active - then deacivate it
+				if (FrameWtbp::_()->moduleActive($modDataArr['code'])) { //If module is active - then deactivate it
 					if (FrameWtbp::_()->getModule('options')->getModel('modules')->put(array(
 						'id' => FrameWtbp::_()->getModule($modDataArr['code'])->getID(),
 						'active' => 0,
@@ -198,13 +228,17 @@ class ModInstallerWtbp {
 		}
 		return true;
 	}
+
+	/**
+	 * activate.
+	 */
 	public static function activate( $modDataArr ) {
 		$locations = self::_getPluginLocations();
 		$modules = self::_getModulesFromXml($locations['xmlPath']);
 		if ($modules) {
 			foreach ($modules as $m) {
 				$modDataArr = UtilsWtbp::xmlNodeAttrsToArr($m);
-				if (!FrameWtbp::_()->moduleActive($modDataArr['code'])) { //If module is not active - then acivate it
+				if (!FrameWtbp::_()->moduleActive($modDataArr['code'])) { //If module is not active - then activate it
 					if (FrameWtbp::_()->getModule('options')->getModel('modules')->put(array(
 						'code' => $modDataArr['code'],
 						'active' => 1,
@@ -220,9 +254,10 @@ class ModInstallerWtbp {
 				}
 			}
 		}
-	} 
+	}
+
 	/**
-	 * Display all errors for module installer, must be used ONLY if You realy need it
+	 * Display all errors for module installer, must be used ONLY if You really need it.
 	 */
 	public static function displayErrors( $exit = true ) {
 		$errors = ErrorsWtbp::get(ErrorsWtbp::MOD_INSTALL);
@@ -233,6 +268,10 @@ class ModInstallerWtbp {
 			exit();
 		}
 	}
+
+	/**
+	 * uninstall.
+	 */
 	public static function uninstall() {
 		$locations = self::_getPluginLocations();
 		$modules = self::_getModulesFromXml($locations['xmlPath']);
@@ -245,6 +284,10 @@ class ModInstallerWtbp {
 			}
 		}
 	}
+
+	/**
+	 * _uninstallTables.
+	 */
 	protected static function _uninstallTables( $module ) {
 		if (is_dir(WTBP_MODULES_DIR . $module['code'] . DS . 'tables')) {
 			$tableFiles = UtilsWtbp::getFilesList(WTBP_MODULES_DIR . $module['code'] . DS . 'tables');
@@ -258,10 +301,14 @@ class ModInstallerWtbp {
 			}
 		}
 	}
+
+	/**
+	 * _installTables.
+	 */
 	public static function _installTables( $module, $action = 'install' ) {
-		$modDir = empty($module['ex_plug_dir']) ? 
-			WTBP_MODULES_DIR . $module['code'] . DS : 
-			UtilsWtbp::getPluginDir($module['ex_plug_dir']) . $module['code'] . DS; 
+		$modDir = empty($module['ex_plug_dir']) ?
+			WTBP_MODULES_DIR . $module['code'] . DS :
+			UtilsWtbp::getPluginDir($module['ex_plug_dir']) . $module['code'] . DS;
 		if (is_dir($modDir . 'tables')) {
 			$tableFiles = UtilsWtbp::getFilesList($modDir . 'tables');
 			if (!empty($tableFiles)) {
@@ -275,4 +322,5 @@ class ModInstallerWtbp {
 			}
 		}
 	}
+
 }
