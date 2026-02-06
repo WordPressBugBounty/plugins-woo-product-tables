@@ -10,7 +10,7 @@ jQuery(document).ready(function(){
 	if(typeof(wtbpActiveTab) != 'undefined' && wtbpActiveTab != 'main_page' && jQuery('#toplevel_page_wtbp-comparison-slider').hasClass('wp-has-current-submenu')) {
 		var subMenus = jQuery('#toplevel_page_wtbp-comparison-slider').find('.wp-submenu li');
 		subMenus.removeClass('current').each(function(){
-			if(jQuery(this).find('a[href$="&tab='+ wtbpActiveTab+ '"]').size()) {
+			if(jQuery(this).find('a[href$="&tab='+ wtbpActiveTab+ '"]').length) {
 				jQuery(this).addClass('current');
 			}
 		});
@@ -35,11 +35,11 @@ jQuery(document).ready(function(){
 		}
 	}, 1000);
 
-	if(jQuery('.wtbpInputsWithDescrForm').size()) {
+	if(jQuery('.wtbpInputsWithDescrForm').length) {
 		jQuery('.wtbpInputsWithDescrForm').find('input[type=checkbox][data-optkey]').change(function(){
 			var optKey = jQuery(this).data('optkey')
 			,	descShell = jQuery('#wtbpFormOptDetails_'+ optKey);
-			if(descShell.size()) {
+			if(descShell.length) {
 				if(jQuery(this).attr('checked')) {
 					descShell.slideDown( 300 );
 				} else {
@@ -83,7 +83,7 @@ jQuery(document).ready(function(){
 	});
 
 	// Go to Top button init
-	if(jQuery('#wtbpPopupGoToTopBtn').size()) {
+	if(jQuery('#wtbpPopupGoToTopBtn').length) {
 		jQuery('#wtbpPopupGoToTopBtn').click(function(){
 			jQuery('html, body').animate({
 				scrollTop: 0
@@ -93,7 +93,7 @@ jQuery(document).ready(function(){
 		});
 	}
 	wtbpInitTooltips();
-	if(jQuery('.wtbpCopyTextCode').size()) {
+	if(jQuery('.wtbpCopyTextCode').length) {
 		setTimeout(function(){	// Give it some time - wait until all other elements will be initialized
 			var cloneWidthElement =  jQuery('<span class="sup-shortcode" />').appendTo('.woobewoo-plugin');
 			jQuery('.wtbpCopyTextCode').attr('readonly', 'readonly').click(function(){
@@ -140,7 +140,7 @@ function wtbpInitTooltips( selector ) {
 	for(var k in findPos) {
 		if(typeof(k) === 'string') {
 			var $tips = $findIn ? $findIn.find( k ) : jQuery( k ).not('.sup-no-init');
-			if($tips && $tips.size()) {
+			if($tips && $tips.length) {
 				tooltipsterSettings.position = findPos[ k ];
 				// Fallback for case if library was not loaded
 				if(!$tips.tooltipster) continue;
@@ -218,7 +218,7 @@ function wtbpInitStickyItem() {
 						});
 						if(useNextElementPadding) {
 							var nextElement = element.next();
-							if(nextElement && nextElement.size()) {
+							if(nextElement && nextElement.length) {
 								nextElement.data('prevPaddingTop', nextElement.css('padding-top'));
 								var addToNextPadding = parseInt(element.data('next-padding-add'));
 								addToNextPadding = addToNextPadding ? addToNextPadding : 0;
@@ -240,7 +240,7 @@ function wtbpInitStickyItem() {
 						}
 						if(useNextElementPadding) {
 							var nextElement = element.next();
-							if(nextElement && nextElement.size()) {
+							if(nextElement && nextElement.length) {
 								var nextPrevPaddingTop = parseInt(nextElement.data('prevPaddingTop'));
 								if(isNaN(nextPrevPaddingTop))
 									nextPrevPaddingTop = 0;
@@ -275,10 +275,10 @@ function wtbpInitStickyItem() {
 			});
 		}
 		if(wasSticking) {
-			if(jQuery('#wtbpPopupGoToTop').size())
+			if(jQuery('#wtbpPopupGoToTop').length)
 				jQuery('#wtbpPopupGoToTop').show();
 		} else if(wasUnSticking) {
-			if(jQuery('#wtbpPopupGoToTop').size())
+			if(jQuery('#wtbpPopupGoToTop').length)
 				jQuery('#wtbpPopupGoToTop').hide();
 		}
 	});
@@ -425,7 +425,7 @@ function prepareToPlotDate(data) {
 }
 function wtbpInitPlugNotices() {
 	var $notices = jQuery('.woobewoo-admin-notice');
-	if($notices && $notices.size()) {
+	if($notices && $notices.length) {
 		$notices.each(function(){
 			jQuery(this).find('.notice-dismiss').click(function(){
 				var $notice = jQuery(this).parents('.woobewoo-admin-notice');
@@ -447,7 +447,7 @@ function wtbpInitPlugNotices() {
 					return false;
 			});
 			var $enbStatsBtn = jQuery(this).find('.wtbpEnbStatsAdBtn');
-			if($enbStatsBtn && $enbStatsBtn.size()) {
+			if($enbStatsBtn && $enbStatsBtn.length) {
 				$enbStatsBtn.click(function(){
 					jQuery.sendFormWtbp({
 						data: {mod: 'promo', action: 'enbStatsOpt'}
@@ -492,7 +492,7 @@ function wtbpInitMainPromoPopup() {
 			}
 			if(isRadio) {
 				jQuery('input[name="'+ jQuery(this).attr('name')+ '"]:first').parents('label:first').click();
-				if(jQuery(this).parents('.iradio_minimal:first').size()) {
+				if(jQuery(this).parents('.iradio_minimal:first').length) {
 					var self = this;
 					setTimeout(function(){
 						jQuery(self).parents('.iradio_minimal:first').removeClass('checked');
@@ -500,14 +500,14 @@ function wtbpInitMainPromoPopup() {
 				}
 			}
 			var parent = null;
-			if(jQuery(this).parents('#wtbpPopupMainOpts').size()) {
+			if(jQuery(this).parents('#wtbpPopupMainOpts').length) {
 				parent = jQuery(this).parents('label:first');
-			} else if(jQuery(this).parents('.wtbpPopupOptRow:first').size()) {
+			} else if(jQuery(this).parents('.wtbpPopupOptRow:first').length) {
 				parent = jQuery(this).parents('.wtbpPopupOptRow:first');
 			} else {
 				parent = jQuery(this).parents('tr:first');
 			}
-			if(!parent.size()) return;
+			if(!parent.length) return;
 			var promoLink = parent.find('.wtbpProOptMiniLabel a').attr('href');
 			if(promoLink && promoLink != '') {
 				jQuery('#wtbpOptInProWnd a').attr('href', promoLink);

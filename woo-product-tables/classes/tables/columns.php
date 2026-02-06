@@ -1,4 +1,12 @@
 <?php
+/**
+ * Product Table by WBW - Columns
+ *
+ * @author  woobewoo
+ */
+
+defined( 'ABSPATH' ) || exit;
+
 class TableColumnsWtbp extends TableWtbp {
 	public function __construct() {
 		$this->_table = '@__columns';

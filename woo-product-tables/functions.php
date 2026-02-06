@@ -1,6 +1,14 @@
 <?php
 /**
- * Set first leter in a string as UPPERCASE
+ * Product Table by WBW - Functions
+ *
+ * @author  woobewoo
+ */
+
+defined( 'ABSPATH' ) || exit;
+
+/**
+ * Set first letter in a string as UPPERCASE.
  *
  * @param string $str string to modify
  * @return string string with first Uppercase letter
@@ -10,8 +18,9 @@ if (!function_exists('strFirstUpWtbp')) {
 		return strtoupper(substr($str, 0, 1)) . strtolower(substr($str, 1, strlen($str)));
 	}
 }
+
 /**
- * Deprecated - class must be created
+ * Deprecated - class must be created.
  */
 if (!function_exists('dateToTimestampWtbp')) {
 	function dateToTimestampWtbp( $date ) {
@@ -22,8 +31,9 @@ if (!function_exists('dateToTimestampWtbp')) {
 		return mktime(0, 0, 0, $a[1], $a[0], $a[2]);
 	}
 }
+
 /**
- * Generate random string name
+ * Generate random string name.
  *
  * @param int $lenFrom min len
  * @param int $lenTo max len
@@ -41,6 +51,10 @@ if (!function_exists('getRandNameWtbp')) {
 		return $res;
 	}
 }
+
+/**
+ * importWtbp.
+ */
 if (!function_exists('importWtbp')) {
 	function importWtbp( $path ) {
 		if (file_exists($path)) {
@@ -50,6 +64,10 @@ if (!function_exists('importWtbp')) {
 		return false;
 	}
 }
+
+/**
+ * setDefaultParamsWtbp.
+ */
 if (!function_exists('setDefaultParamsWtbp')) {
 	function setDefaultParamsWtbp( $params, $default ) {
 		foreach ($default as $k => $v) {
@@ -58,6 +76,10 @@ if (!function_exists('setDefaultParamsWtbp')) {
 		return $params;
 	}
 }
+
+/**
+ * importClassWtbp.
+ */
 if (!function_exists('importClassWtbp')) {
 	function importClassWtbp( $class, $path = '' ) {
 		if (!class_exists($class)) {
@@ -69,12 +91,13 @@ if (!function_exists('importClassWtbp')) {
 				$path = WTBP_CLASSES_DIR . $classFile . '.php';
 			}
 			return importWtbp($path);
-		} 
+		}
 		return false;
 	}
 }
+
 /**
- * Check if class name exist with prefix or not
+ * Check if class name exist with prefix or not.
  *
  * @param strin $class preferred class name
  * @return string existing class name
@@ -90,10 +113,11 @@ if (!function_exists('toeGetClassNameWtbp')) {
 			$className = $class;
 		}
 		return $className;
-	} 
+	}
 }
+
 /**
- * Create object of specified class
+ * Create object of specified class.
  *
  * @param string $class class that you want to create
  * @param array $params array of arguments for class __construct function
@@ -117,8 +141,9 @@ if (!function_exists('toeCreateObjWtbp')) {
 		return $obj;
 	}
 }
+
 /**
- * Redirect user to specified location. Be advised that it should redirect even if headers alredy sent.
+ * Redirect user to specified location. Be advised that it should redirect even if headers already sent.
  *
  * @param string $url where page must be redirected
  */
@@ -132,12 +157,16 @@ if (!function_exists('redirectWtbp')) {
 		exit();
 	}
 }
+
+/**
+ * jsonEncodeUTFnormalWtbp.
+ */
 if (!function_exists('jsonEncodeUTFnormalWtbp')) {
 	function jsonEncodeUTFnormalWtbp( $value ) {
 		if (is_int($value)) {
-			return (string) $value;   
+			return (string) $value;
 		} elseif (is_string($value)) {
-			$value = str_replace(array('\\', '/', '"', "\r", "\n", "\b", "\f", "\t"), 
+			$value = str_replace(array('\\', '/', '"', "\r", "\n", "\b", "\f", "\t"),
 								 array('\\\\', '\/', '\"', '\r', '\n', '\b', '\f', '\t'), $value);
 			$convmap = array(0x80, 0xFFFF, 0, 0xFFFF);
 			$result = '';
@@ -145,9 +174,9 @@ if (!function_exists('jsonEncodeUTFnormalWtbp')) {
 				$mb_char = substr($value, $i, 1);
 				$result = $mb_char . $result;
 			}
-			return '"' . $result . '"';                
+			return '"' . $result . '"';
 		} elseif (is_float($value)) {
-			return str_replace(',', '.', $value);         
+			return str_replace(',', '.', $value);
 		} elseif (is_null($value)) {
 			return 'null';
 		} elseif (is_bool($value)) {
@@ -169,20 +198,21 @@ if (!function_exists('jsonEncodeUTFnormalWtbp')) {
 		$result = array();
 		if ($with_keys) {
 			foreach ($value as $key => $v) {
-				$result[] = jsonEncodeUTFnormalWtbp((string) $key) . ':' . jsonEncodeUTFnormalWtbp($v);    
+				$result[] = jsonEncodeUTFnormalWtbp((string) $key) . ':' . jsonEncodeUTFnormalWtbp($v);
 			}
-			return '{' . implode(',', $result) . '}';                
+			return '{' . implode(',', $result) . '}';
 		} else {
 			foreach ($value as $key => $v) {
-				$result[] = jsonEncodeUTFnormalWtbp($v);    
+				$result[] = jsonEncodeUTFnormalWtbp($v);
 			}
 			return '[' . implode(',', $result) . ']';
 		}
-	} 
+	}
 }
+
 /**
- * Prepares the params values to store into db
- * 
+ * Prepares the params values to store into db.
+ *
  * @param array $d $_POST array
  * @return array
  */
@@ -215,8 +245,12 @@ if (!function_exists('prepareParamsWtbp')) {
 		return $d;
 	}
 }
+
+/**
+ * prepareFieldCodeWtbp.
+ */
 if (!function_exists('prepareFieldCodeWtbp')) {
-	function prepareFieldCodeWtbp( $string ) {   
+	function prepareFieldCodeWtbp( $string ) {
 		$string = preg_replace('/[^a-zA-Z0-9\s]/', ' ', $string);
 		$string = preg_replace('/\s+/', ' ', $string);
 		$string = preg_replace('/ /', '', $string);
@@ -229,8 +263,9 @@ if (!function_exists('prepareFieldCodeWtbp')) {
 		return $code;
 	}
 }
+
 /**
- * Recursive implode of array
+ * Recursive implode of array.
  *
  * @param string $glue imploder
  * @param array $array array to implode
@@ -257,19 +292,28 @@ if (!function_exists('recImplodeWtbp')) {
 		return $res;
 	}
 }
+
 /**
- * Twig require this function, but it is present not on all servers
+ * Twig require this function, but it is present not on all servers.
  */
 if (!function_exists('hash')) {
 	function hash( $method, $data ) {
 		return md5($data);
 	}
 }
+
+/**
+ * ctype_alpha.
+ */
 if (!function_exists('ctype_alpha')) {
 	function ctype_alpha( $text ) {
 		return (bool) preg_match('/[^\pL]+/', $text);
 	}
 }
+
+/**
+ * trueRequestWtbp.
+ */
 if ( ! function_exists( 'trueRequestWtbp' ) ) {
 	function trueRequestWtbp() {
 		$request = true;

@@ -1,4 +1,12 @@
 <?php
+/**
+ * Product Table by WBW - Modules Type
+ *
+ * @author  woobewoo
+ */
+
+defined( 'ABSPATH' ) || exit;
+
 class TableModules_TypeWtbp extends TableWtbp {
 	public function __construct() {
 		$this->_table = '@__modules_type';

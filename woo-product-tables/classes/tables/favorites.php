@@ -1,4 +1,12 @@
 <?php
+/**
+ * Product Table by WBW - Favorites
+ *
+ * @author  woobewoo
+ */
+
+defined( 'ABSPATH' ) || exit;
+
 class TableFavoritesWtbp extends TableWtbp {
 	public function __construct() {
 		$this->_table = '@__favorites';

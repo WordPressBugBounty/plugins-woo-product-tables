@@ -1,4 +1,12 @@
 <?php
+/**
+ * Product Table by WBW - Tables
+ *
+ * @author  woobewoo
+ */
+
+defined( 'ABSPATH' ) || exit;
+
 class TableTablesWtbp extends TableWtbp {
 	public function __construct() {
 		$this->_table = '@__tables';

@@ -352,7 +352,7 @@ function toeListableWtbp(params) {
 			var newRow = exampleRow.clone();
 			for(var key in list[i]) {
 				var element = newRow.find('.'+ key);
-				if(element.size()) {
+				if(element.length) {
 					var valueTo = element.attr('valueTo');
 					if(valueTo) {
 						var newValue = list[i][key];

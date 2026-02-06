@@ -93,7 +93,7 @@ jQuery.fn.sendFormWtbp = function(params) {
 		jQuery(params.btn).attr('disabled', 'disabled');
 		// Font awesome usage
 		params.btnIconElement = jQuery(params.btn).find('.fa').length ? jQuery(params.btn).find('.fa') : jQuery(params.btn);
-		if(jQuery(params.btn).find('.fa').size()) {
+		if(jQuery(params.btn).find('.fa').length) {
 			params.btnIconElement
 				.data('prev-class', params.btnIconElement.attr('class'))
 				.attr('class', 'fa fa-spinner fa-spin');
@@ -249,7 +249,7 @@ function toeOptTimeoutHideDescriptionWtbp() {
  */
 function toeOptShowDescriptionWtbp(description, x, y, moveToLeft) {
     if(typeof(description) != 'undefined' && description != '') {
-        if(!jQuery('#wtbpOptDescription').size()) {
+        if(!jQuery('#wtbpOptDescription').length) {
             jQuery('body').append('<div id="wtbpOptDescription"></div>');
         }
 		if(moveToLeft)
