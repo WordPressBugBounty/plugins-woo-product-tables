@@ -1,16 +1,16 @@
 <?php
 /**
- * Plugin Name: Product Table by WBW
+ * Plugin Name: Product Table for WooCommerce by WBW
  * Plugin URI: https://woobewoo.com/plugins/table-woocommerce-plugin/
  * Description: Post your product easy in tables
- * Version: 2.2.7
+ * Version: 2.2.8
  * Author: woobewoo
  * Author URI: https://woobewoo.com
  * Requires at least: 3.3
  * Text Domain: woo-product-tables
  * Domain Path: /languages
  * WC requires at least: 3.4.0
- * WC tested up to: 10.4
+ * WC tested up to: 10.5
  * Requires Plugins: woocommerce
  */
 
