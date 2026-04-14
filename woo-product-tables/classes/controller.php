@@ -2,6 +2,8 @@
 /**
  * Product Table by WBW - ControllerWtbp Class
  *
+ * @version 2.2.9
+ *
  * @author  woobewoo
  */
 
@@ -337,8 +339,14 @@ abstract class ControllerWtbp {
 
 	/**
 	 * clear.
+	 *
+	 * @version 2.2.9
 	 */
 	public function clear() {
+		check_ajax_referer( 'wtbp-save-nonce', 'wtbpNonce' );
+		if ( ! current_user_can( 'manage_options' ) ) {
+			wp_die();
+		}
 		$res = new ResponseWtbp();
 		if ($this->getModel()->clear()) {
 			$res->addMessage(esc_html__('Done', 'woo-product-tables'));

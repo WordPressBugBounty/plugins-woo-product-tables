@@ -1,4 +1,13 @@
 <?php
+/**
+ * Product Table by WBW - WootablepressControllerWtbp Class
+ *
+ * @version 2.2.9
+ *
+ * @author  woobewoo
+ */
+
+defined( 'ABSPATH' ) || exit;
 
 class WootablepressControllerWtbp extends ControllerWtbp {
 
@@ -24,6 +33,20 @@ class WootablepressControllerWtbp extends ControllerWtbp {
 		}
 
 		return $data;
+	}
+
+	/**
+	 * getPermissions.
+	 *
+	 * @version 2.2.9
+	 * @since   2.2.9
+	 */
+	public function getPermissions() {
+		return array(
+			WTBP_USERLEVELS => array(
+				WTBP_ADMIN => array( 'delete' ),
+			),
+		);
 	}
 
 	public function getSearchProducts() {

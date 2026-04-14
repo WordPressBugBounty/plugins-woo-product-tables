@@ -4,7 +4,7 @@ Tags: product table, WooCommerce product table, WooCommerce, bulk order form, qu
 Donate link: https://woobewoo.com/plugins/table-woocommerce-plugin/
 Requires at least: 3.3
 Tested up to: 6.9
-Stable tag: 2.2.8
+Stable tag: 2.2.9
 
 Show your products in the searchable and sortable product table. WooCommerce product listings and flexible order forms with WBW Product Table
 
@@ -119,6 +119,7 @@ First, you should install it. Then, to create the first Data Table you need:
 5. Add WooCommerce Product Table to the site content using code: table shortcode and table PHP code.
 
 You can find the detailed tutorial here: [Getting Started with WooCommerce Product Tables](https://woobewoo.com/documentation/getting-started-with-woocommerce-product-tables&utm_medium=gettingstarted&utm_campaign=wooproducttable "Getting Started with WooCommerce Product Tables")
+
 = What can I display in the product table? =
 
 The product table includes the following columns: Name, Thumbnails, Categories, Featured, Price, Color, Size, Customizable, Date, SKU, Rating, Stock status, Attribute, Summary, Buy button. You can make your custom column if you click an edit icon and change a title.
@@ -129,7 +130,9 @@ All information about the [Main table settings and options](https://woobewoo.com
 
 The responsive mode is the practice of designing a website that provides a nice and proper view, adapts to the screen dimensions, and works properly on a range of different devices PC desktops, mobile phones, tablets.
 Responsive mode is the practice of designing a website that provides a nice and proper view, adapts to the screen dimensions, and works properly on a range of different devices PC desktops, mobile phones, tablets. The plugin provides 4 different modes of Responsive design according to your needs: Standard, Automatic column hiding, Horizontal scroll, and Disable Responsivity mode. More info you can find here in the article [Responsive mode](https://woobewoo.com/feature/fully-responsive?utm_source=wordpress&utm_medium=responsive&utm_campaign=wooproducttable "Responsive modes").
+
 = How to add a Product Table to a page =
+
 [To add a product table](https://woobewoo.com/documentation/how-to-add-a-product-table-to-a-page?utm_source=wordpress&utm_medium=addatable&utm_campaign=wooproducttable "How to add a Product Table to a page") go to the Product Table Plugin and use shortcodes from the list of tables or copy shortcode above the main tabs.
 There are available Table Shortcode and PHP code.
 
@@ -166,6 +169,7 @@ Use the next instructions to display it as a column in the table:
 Save a table. You can display a table with any type of field you added to the product.
 
 = How to add custom taxonomies to the table? =
+
 Create custom taxonomies quite easily using Custom Post Type UI that is fully compatible with the WooCommerce Product Table. With the help of taxonomies, you can store and show extra product data. So, they are designed to store re-usable information that can be used to group and filter products. You can also use taxonomies to filter products using the WooCommerce Product Table plugin.
 Follow this [step by step tutorial](https://woobewoo.com/documentation/how-to-add-custom-taxonomy-to-the-table/ "How to add custom taxonomy") to create taxonomies, add them to the product and display in the table.
 
@@ -183,10 +187,15 @@ Multiple add to cart option is the most beneficial for small and low-cost items.
 
 The plugin uses the product data already created by WooCommerce itself. This means that you can add products to WooCommerce manually or import them using a CSV/XML import plugin, and they will display in the product table. In this tutorial, you can find an instruction [how to add a product to WooCommerce](https://woobewoo.com/feature/all-products-in-one-table/?utm_source=wordpress&utm_medium=multipleaddtocart&utm_campaign=wooproducttable "How to create a product catalog for your tech shop?")
 
-= How to create an order form?
+= How to create an order form? =
+
 Order form enables users to quickly scan and compare all your products. Also, it changes how products are displayed in your store.
 First of all, the order form lists multiple products all on top of each other in contrast to the standard WooCommerce store, where each good takes up a relatively large amount of space. Such product displays allow customers to quickly see all the important features before they buy it.
 Look at detailed instruction [Step by step: how to create add an order form](https://woobewoo.com/blog/step-by-step-how-to-create-an-order-form?utm_source=wordpress&utm_medium=orderform&utm_campaign=wooproducttable "Step by step: how to create add an order form") to the WooCommerce store.
+
+= Where do I report security bugs found in this plugin? =
+
+Please report security bugs found in the source code of the plugin through the [Patchstack Vulnerability Disclosure Program](https://patchstack.com/database/vdp/9e5fbd62-0718-41b5-9c53-0c1130815216). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
 
 == Screenshots ==
 
@@ -200,6 +209,10 @@ Look at detailed instruction [Step by step: how to create add an order form](htt
 
 
 == Changelog ==
+
+= 2.2.9 - 14/04/2026 =
+* Fix - Patch broken access control vulnerability.
+* WC tested up to: 10.7.
 
 = 2.2.8 - 13/02/2026 =
 * Readme.txt - Changelog - Truncated.

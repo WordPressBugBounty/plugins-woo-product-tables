@@ -1,5 +1,9 @@
 *** Product Table for WooCommerce by WBW ***
 
+2026-04-14 - version 2.2.9
+* Fix - Patch broken access control vulnerability.
+* WC tested up to: 10.7.
+
 2026-02-13 - version 2.2.8
 * Readme.txt - Changelog - Truncated.
 * Readme.txt - Rename plugin from "Product Table by WBW" to "Product Table for WooCommerce by WBW".
